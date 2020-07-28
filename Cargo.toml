@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "pi-lib",
+    "pi-pm",
+    "pi-pb"
+]

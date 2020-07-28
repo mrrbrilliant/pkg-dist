@@ -1,0 +1,7 @@
+/pi-lib/target
+/pi-pb/target
+/pi-pb/work/*
+/pi-pb/dist/*
+/pi-pm/target
+/target
+/fake-api/node_modules
