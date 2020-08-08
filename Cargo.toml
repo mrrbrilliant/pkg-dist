@@ -1,6 +1,2 @@
 [workspace]
-members = [
-    "pi-lib",
-    "pi-pm",
-    "pi-pb"
-]
+members = ["pi-lib", "pi-pm", "pi-pb", "pi-stream"]

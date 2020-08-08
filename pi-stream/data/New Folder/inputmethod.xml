@@ -1,0 +1,264 @@
+<component type="inputmethod">
+  <id>org.freedesktop.ibus.engine.table</id>
+  <name>Ibus Table</name>
+  <summary>Table based input method</summary>
+  <project_license>LGPL-2.1+</project_license>
+  <developer_name>Mike FABIAN</developer_name>
+  <description>
+    <p>
+      Ibus-table is an input method framework for table-based input
+      methods.  Mostly it is used for Chinese input methods such as
+      ZhengMa, WuBi, ErBi, CangJie, ….  But some tables for other
+      languages are available as well.
+    </p>
+  </description>
+  <pkgname>ibus-table</pkgname>
+  <url type="homepage">https://kaio.github.io/ibus-table/</url>
+  <url type="bugtracker">https://github.com/kaio/ibus-table/issues</url>
+  <url type="help">https://kaio.github.io/ibus-table/documentation.html</url>
+  <releases>
+    <release type="stable" version="1.10.1" timestamp="1594771200" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.10.1</url>
+      <issues>
+        <issue>Add GUI test</issue>
+        <issue>Make output of ibus-table-createdb deterministic</issue>
+        <issue>Update translations from Weblate (updated fr, tr, zh_CN)</issue>
+      </issues>
+    </release>
+    <release type="stable" version="1.10.0" timestamp="1593561600" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.10.0</url>
+      <issues>
+        <issue url="https://bugzilla.redhat.com/show_bug.cgi?id=835376">rhbz#835376: Add suggestion mode feature</issue>
+        <issue url="https://github.com/mike-fabian/ibus-table/pull/9">github-pull#9: Add suggestion mode feature</issue>
+        <issue>Add test cases for suggestion mode feature</issue>
+        <issue>Fix problems with the behaviour of the property menus</issue>
+        <issue>Use python logging module with log file rotation instead
+            of writing to stdout/stderr</issue>
+        <issue>Update translations from Weblate (updated de, es, fr, pt_BR, pt_PT, tr, uk)</issue>
+      </issues>
+    </release>
+    <release type="stable" version="1.9.25" timestamp="1581465600" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.9.25</url>
+      <issues>
+        <issue url="https://github.com/mike-fabian/ibus-table/issues/26">github-mike-fabian-issue#26: Fix crash when changing some
+            options using the menu or the floating panel</issue>
+        <issue>Translation updates (pt_PT)</issue>
+      </issues>
+    </release>
+    <release type="stable" version="1.9.24" timestamp="1579651200" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.9.24</url>
+      <issues>
+        <issue>Fixed two typos in message ids (Thanks to Rafael Fontenelle)</issue>
+        <issue>Translation updates (tr, fr, fa, pt, uk)</issue>
+        <issue>New test cases for ibus-table-others</issue>
+      </issues>
+    </release>
+    <release type="stable" version="1.9.23" timestamp="1578355200" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.9.23</url>
+      <issues>
+        <issue url="https://bugzilla.redhat.com/show_bug.cgi?id=1786652">rhbz#1786652: Add exist_ok=True in os.makedirs(path, exist_ok=True) to
+            avoid failure due to race condition.</issue>
+        <issue>Move MockEngine classes into a separate file and make
+            test_itb.py runnable standalone</issue>
+        <issue>Add new test case for ibus-table-others-1.3.10 (latex
+            table additions)</issue>
+        <issue>Translation updates for several languages (French at 100%
+            now, Brazilian Portuguese at 100% now, Porguguese
+            (Portugal) new and now at 31.5%)</issue>
+      </issues>
+    </release>
+    <release type="stable" version="1.9.22" timestamp="1576540800" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+      </description>
+      <url>https://github.com/kaio/ibus-table/releases/tag/1.9.22</url>
+      <issues>
+        <issue>Added Turkish translation from Weblate, 100% translated</issue>
+        <issue>Minor translation updates some other languages
+            (Punctuation fixes).</issue>
+      </issues>
+    </release>
+  </releases>
+</component>
+<component type="inputmethod">
+  <id>org.freedesktop.ibus.engine.anthy</id>
+  <name>Anthy</name>
+  <summary>Japanese input method</summary>
+  <summary xml:lang="ca">Mètode d'entrada japonès</summary>
+  <summary xml:lang="es">Método de entrada japonés</summary>
+  <summary xml:lang="fr">Méthode de saisie du japonais</summary>
+  <summary xml:lang="ja">日本語入力方式</summary>
+  <summary xml:lang="pt_BR">Método de entrada japonês</summary>
+  <summary xml:lang="uk">Спосіб введення японської</summary>
+  <project_license>GPL-2.0</project_license>
+  <description>
+    <p>
+      The Anthy input method is designed for entering Japanese text.
+    </p>
+    <p>
+      Input methods are typing systems allowing users to input complex languages.
+      They are necessary because these contain too many characters to simply be laid
+      out on a traditional keyboard.
+    </p>
+  </description>
+  <description xml:lang="ca">
+    <p>El mètode d'entrada Anthy està dissenyat per a l'entrada de text en japonès.</p>
+    <p>Els mètodes d'entrada són sistemes mecanogràfics que permeten als usuaris l'entrada d'idiomes complexos. Són necessaris perquè aquests idiomes contenen massa caràcters per col·locar-los simplement en un teclat tradicional.</p>
+  </description>
+  <description xml:lang="es">
+    <p>El método de entrada Anthy está diseñado para usarlo con texto japonés.</p>
+    <p>Los métodos de entrada son sistemas que facilitan el uso de idiomas complejos. Son necesarios porque estos idiomas tienen demasiados caracteres como para ponerlos de forma sencilla en un teclado tradicional.</p>
+  </description>
+  <description xml:lang="fr">
+    <p>La méthode de saisie Anthy  est conçue pour saisir des textes en japonais.</p>
+    <p>Les méthodes de saisie sont des systèmes permettant aux utilisateurs de saisir des langues complexes. Elles sont nécessaires parce que les trop nombreux  caractères de ces langues ne peuvent être disposés sur des claviers classiques.</p>
+  </description>
+  <description xml:lang="ja">
+    <p>Anthy 入力方式は日本語のテキストを入力するために設計されています。</p>
+    <p>入力方式はユーザーに複雑な言語入力を可能にさせる文字入力システムです。 入力方式は従来のキーボード上で簡単に割り当てられた多くの文字を含んでいるために必要とされています。</p>
+  </description>
+  <description xml:lang="uk">
+    <p>Спосіб введення Anthy розроблено для введення текстів японськими ієрогліфами.</p>
+    <p>Способи введення — це системи набирання тексту, за допомогою яких користувачі можуть вводити тексти складними системами писемності. Вони потрібні для мов, де запис здійснюється за допомогою великої кількості символів, які просто не могли б уміститися на клавіатурі.</p>
+  </description>
+  <pkgname>ibus-anthy</pkgname>
+  <url type="homepage">https://github.com/ibus/ibus/wiki</url>
+  <url type="bugtracker">https://github.com/ibus/ibus-anthy/issues</url>
+  <url type="help">https://github.com/ibus/ibus/wiki/FAQ</url>
+</component>
+<component type="inputmethod">
+  <id>libpinyin.xml</id>
+  <name>Pinyin</name>
+  <summary>Chinese Pinyin and Zhuyin input method</summary>
+  <project_group>GNOME</project_group>
+  <developer_name>The GNOME Project</developer_name>
+  <description>
+    <p>
+      The Pinyin input method is designed for entering Chinese text by
+      using Pinyin or Zhuyin.
+    </p>
+    <p>
+      Input methods are typing systems allowing users to input complex languages.
+      They are necessary because these contain too many characters to simply be laid
+      out on a traditional keyboard.
+    </p>
+  </description>
+  <pkgname>ibus-libpinyin</pkgname>
+  <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+  <url type="homepage">https://github.com/libpinyin/ibus-libpinyin</url>
+  <url type="bugtracker">https://code.google.com/p/ibus/issues/list</url>
+  <url type="help">https://code.google.com/p/ibus/wiki/FAQ</url>
+  <url type="donation">http://www.gnome.org/friends/</url>
+</component>
+<component type="inputmethod">
+  <id>m17n.xml</id>
+  <name>Ibus M17N</name>
+  <summary>M17N input engine for IBus</summary>
+  <project_license>GPL-2</project_license>
+  <developer_name>Parag Nemade, Mike FABIAN</developer_name>
+  <description>
+    <p>
+      This multilingualization input method allows entering many
+      languages using the input methods from the m17n library.
+    </p>
+  </description>
+  <pkgname>ibus-m17n</pkgname>
+  <url type="homepage">https://github.com/ibus/ibus-m17n</url>
+  <url type="bugtracker">https://github.com/ibus/ibus-m17n/issues</url>
+  <url type="help">https://github.com/ibus/ibus-m17n</url>
+  <releases>
+    <release type="stable" version="1.4.3" timestamp="1592611200" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            New translation: es (Spanish) 100%
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.4.2" timestamp="1579478400" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            New translations: tr (Turkish) 100%, uk (Ukrainian) 100%,
+            id (Indonesian) 100%, ja_JP (Japanese) 100%.
+          </li>
+          <li>
+            Translation updates: zh_CN, pt_BR
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.4.1" timestamp="1540425600" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            Fix for google code issue 1781 in ibus-m17n for kk
+            (Correct symbols for kk input methods)
+          </li>
+          <li>
+            Add German translations
+          </li>
+          <li>
+            Add m17n.appdata.xml
+          </li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="1.4.0" timestamp="1540339200" urgency="medium">
+      <description>
+        <p>This new stable release includes these changes:</p>
+        <ul>
+          <li>
+            Migrate from IBusConfig to GSettings. Resolves:
+            https://github.com/ibus/ibus-m17n/issues/3
+          </li>
+          <li>
+            Add an option to emulate US layout
+          </li>
+          <li>
+            Fix preedit background colour and underlining
+          </li>
+          <li>
+            Switch off preedit background and foreground correctly if
+            disabled in the setup tool
+          </li>
+          <li>
+            Other minor bug fixes.
+          </li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
+<component type="inputmethod">
+  <id>org.freedesktop.ibus.engine.hangul</id>
+  <name>ibus-hangul</name>
+  <summary>Hangul engine for IBus</summary>
+  <project_license>GPL-2</project_license>
+  <project_group>IBus</project_group>
+  <description>
+    <p>IBus-Hangul is a Korean input method engine for IBus.</p>
+  </description>
+  <pkgname>ibus-hangul</pkgname>
+  <url type="homepage">https://github.com/libhangul/ibus-hangul</url>
+  <url type="bugtracker">https://github.com/libhangul/ibus-hangul/issues</url>
+</component>
