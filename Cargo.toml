@@ -1,2 +1,8 @@
 [workspace]
-members = ["pi-lib", "pi-pm", "pi-pb", "pi-stream"]
+members = [
+    "shared-library",
+    "package-manager",
+    "package-builder",
+    "deriver-discover",
+    "deriver-pacman",
+]

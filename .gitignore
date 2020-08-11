@@ -1,7 +1,9 @@
-/pi-lib/target
-/pi-pb/target
-/pi-pb/work/*
-/pi-pb/dist/*
-/pi-pm/target
+/shared-library/target
+/package-builder/target
+/package-builder/work/*
+/package-builder/dist/*
+/package-manager/target
 /target
-/fake-api/node_modules
+/package-repository/node_modules
+/deriver-discover/target
+/deriver-pacman/target
