@@ -1,5 +1,0 @@
-%DEPENDS%
-wget
-bash
-diffutils
-
