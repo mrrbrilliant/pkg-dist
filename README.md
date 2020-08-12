@@ -12,18 +12,16 @@ to learn but not as good for general users.
 
 **INTRODUCTION**
 
-KOOMPI OS 3 focuses on stabilty, simplicity, and performance, so from KOOMPI hardware
-to its software, everything must be very reliable, inarguably understandale at glance,
-and efficiently fast.
-
-This project aims to derive KOOMPI OS as an independent Linux based distribution
-through building and having its own toolsets for embracing and distributing opensource
-software using the following tools:
-
-- PI Package Manager
-
-- PI Package Builder
+KOOMPI OS 3 focuses on stabilty, simplicity, performance, and integration, so from KOOMPI
+hardware to its software, everything must be very reliable, inarguably understandale at
+glance, and efficiently fast. This project aims to distinguish KOOMPI OS as an independent
+Linux based operating system through building its own toolsets to embrace opensource software
+adoption for a better and free-er digital society.
 
 - KOOMPI Application Store
 
-- Free and Open Repository
+- KOOMPI Multiverse Bridge
+
+- KOOMPI Origami Interface
+
+- KOOMPI Virtual BioSphere
