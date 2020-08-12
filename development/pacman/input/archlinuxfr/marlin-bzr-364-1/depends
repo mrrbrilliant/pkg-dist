@@ -1,7 +1,0 @@
-%DEPENDS%
-gtk3
-libgee
-glib2
-cairo
-libnotify
-

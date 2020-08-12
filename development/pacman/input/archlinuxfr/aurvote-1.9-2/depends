@@ -1,6 +1,0 @@
-%DEPENDS%
-curl
-
-%CONFLICTS%
-aurvote-git
-
