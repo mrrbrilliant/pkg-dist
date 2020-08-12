@@ -1,0 +1,64 @@
+%FILENAME%
+neofetch-7.1.0-1-any.pkg.tar.zst
+
+%NAME%
+neofetch
+
+%BASE%
+neofetch
+
+%VERSION%
+7.1.0-1
+
+%DESC%
+A CLI system information tool written in BASH that supports displaying images.
+
+%CSIZE%
+85081
+
+%ISIZE%
+347269
+
+%MD5SUM%
+dc7c72e60df30754cee1d0aa48563117
+
+%SHA256SUM%
+9e46e49f1d3d9848d06ad0000f82be7cb541ed8a86aa72f88ee6d3aad2403413
+
+%PGPSIG%
+iQIzBAABCgAdFiEEktnGzemaICTWkKdu50JoO6CMsv8FAl8nLWQACgkQ50JoO6CMsv9fFRAAtWRHxwM2EeMFRsHq8XG2pqHfsHUZTCqEPL0h4JHQDGlJUQO8C1BfN9DjZoMZr7iLCw17CgA/zgSyn0J6PtQpMVPi1WF0LPRrSHV/kMnY6eRLKOS0qXJFuXxEu+uJV0/k47UhAWatmGcYloONs9SYGC0eggufvzlilHOexMC0XT3Zyue6e2wZ+kX3cS3pINIq8EcOQi93vfOFoGsILDrVLWERfyBOWIl3Rjggii8zvymkbjuHaAaVL+XLKnteE45vPmDRGZqV0iTKFdaVTkN0zYIyT+HQ9yRngo5nCWhYyMEovxuYlKBDqZafHXj1d/Iq+1ukda+aP4W/DSaObh2EbGxAy7qiPzfGYVx+VhgAhLN7GB+H687k6t30yPnTfbUmjtEl+XbOEDRjZab7cbJ+pJ7cu6rnWq1lJIXX2MCfpRJiCXn2AtBSriVm4F9OKNMI0Be1AWlOxqAQ9wOQ4LlzBX9MIpGJFgHsKGOsV66pdYgcatDnHb/RgzH6Np6jK5e2gzyX2HerZzFzS8SwSDDauB9EpvaUiBI+mKuold5tdkk6OjJKA2BpdWEMoSMDJU17dSfR0yfG1VXDBUeld+TGPVPwEjyQiP5E1r/KQCG1UaS7+VRGx/ZjOmiGSVjDYeS4YbAS9aUzJ+duEJDH8o3F7XlMb0cfjKro6hHx4xlskEE=
+
+%URL%
+https://github.com/dylanaraps/neofetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1596400319
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+catimg: Display Images
+chafa: Image to text support
+feh: Wallpaper Display
+imagemagick: Image cropping / Thumbnail creation / Take a screenshot
+jp2a: Display Images
+libcaca: Display Images
+nitrogen: Wallpaper Display
+pacman-contrib: Display package count
+w3m: Display Images
+xdotool: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal
+xorg-xdpyinfo: Resolution detection (Single Monitor)
+xorg-xprop: Desktop Environment and Window Manager
+xorg-xrandr: Resolution detection (Multi Monitor + Refresh rates)
+xorg-xwininfo: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal
+

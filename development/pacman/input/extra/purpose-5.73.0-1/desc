@@ -1,0 +1,62 @@
+%FILENAME%
+purpose-5.73.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+purpose
+
+%BASE%
+purpose
+
+%VERSION%
+5.73.0-1
+
+%DESC%
+Framework for providing abstractions to get the developer's purposes fulfilled
+
+%GROUPS%
+kf5
+
+%CSIZE%
+311219
+
+%ISIZE%
+1447788
+
+%MD5SUM%
+36fad8eb0dce57bb8f7ee460dd8586fe
+
+%SHA256SUM%
+7fdd358a47597d86c8876b65c66b475c78768653d84c504bb1f55354db30baff
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8ueLAACgkQek52CV2KUuQHFQgApMCIrUb/ENiuDNaHsl5t4Q7y3vwicMwvReglCWBDTNphHY7IOnp+t2PFjxZxN/N3eErutUxP1rTyClZ2QgWTIUbqtE7v4x33VuSti1WF0qkYUGiB2qyUzcBdKQpOcRzr/BuTzrwQ3iQ75qnywHP24Bxm1XnIDz3JB2pvSyUNyizcF/yG6XbErDKPZuTQj7FGD8z3IT0DVWGzEjcajvwTg3Qjq+17lyGEGsV6kbl4ocZ5gefqdXsxYdQR1lvhMDeYpOoElZNQpLTatkNkDeaUdcfGYyNCCK3MGZgFAq2shjqt13LplsPi0Fkkqd4EirFQnMq+5dNlIX/ZcimVus5qpA==
+
+%URL%
+https://community.kde.org/Frameworks
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596319389
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+kaccounts-integration
+kirigami2
+accounts-qml-module
+
+%OPTDEPENDS%
+kdeconnect: sharing to smartphone via KDE Connect
+telegram-desktop: sharing via Telegram
+bluedevil: sharing via Bluetooth
+
+%MAKEDEPENDS%
+extra-cmake-modules
+intltool
+

@@ -1,0 +1,60 @@
+%FILENAME%
+ghostwriter-1.8.1-4-x86_64.pkg.tar.zst
+
+%NAME%
+ghostwriter
+
+%BASE%
+ghostwriter
+
+%VERSION%
+1.8.1-4
+
+%DESC%
+Aesthetic, distraction-free Markdown editor
+
+%CSIZE%
+419564
+
+%ISIZE%
+1365190
+
+%MD5SUM%
+9d3398c21cdce7dc29c0507fd6e2cc7d
+
+%SHA256SUM%
+0ce47d5e9993c67dbfe40635a815209d66e2bd4eee4c8c15f6d828354e2d5068
+
+%PGPSIG%
+iQEzBAABCAAdFiEEzgvecadZqH8j8PfYth284QkBwWMFAl8ZX9IACgkQth284QkBwWMMGAgAmF/+wq+gKbx5KPxak2mNE5xNCATBqjFcayo0Pv2JOqxDQPrcvMv86C0/CY65xSNSw2AMuyM83s74rRzTf3o48V1LPbtjM693s9+VAqemVNdJexB216RNL/pKtf4Hc6/YVep6+CnYigSdlkVJgfynBTiM3XENad2Nwwq7F3iOsIL/Yag/IIdWLR1zO0vj+q0Q5ARGzEFIjYNl6ZHdghzg0BUiR2d+WSBmnHu5sLnNu/qPREcOieCavECLYm6cZQGjhh480GwM5RktxcEzdqaC6gVZ/bBpSXjpGe2KJ4LQALXQaNQsvIiQ7crBUlsEBzgQEZlfSVjIB8s5tsCENmrDkQ==
+
+%URL%
+https://wereturtle.github.io/ghostwriter/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595498311
+
+%PACKAGER%
+Balló György <ballogyor+arch@gmail.com>
+
+%DEPENDS%
+hunspell
+qt5-svg
+qt5-webengine
+
+%OPTDEPENDS%
+cmark: processing and rendering CommonMark
+cmark-gfm: processing and rendering GitHub Flavored Markdown
+discount: processing and rendering Markdown
+mathjax: formula rendering in live preview
+pandoc: Pandoc supported Markdown flavors and export to various formats
+
+%MAKEDEPENDS%
+qt5-tools
+

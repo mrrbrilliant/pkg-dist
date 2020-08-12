@@ -1,0 +1,55 @@
+%FILENAME%
+youtube-dl-2020.07.28-1-any.pkg.tar.zst
+
+%NAME%
+youtube-dl
+
+%BASE%
+youtube-dl
+
+%VERSION%
+2020.07.28-1
+
+%DESC%
+A small command-line program to download videos from YouTube.com and a few more sites
+
+%CSIZE%
+2296700
+
+%ISIZE%
+13229970
+
+%MD5SUM%
+de9bda20bece53274f9a8da1d0c60afd
+
+%SHA256SUM%
+1f881ef51316d0c18c743034636b80b85aada1a0c39287da1bf57c1fa0e18297
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAl8fsaMACgkQ6k97MhqQatl1KRAAhEHWivDjr5g5IS/WuZ2Jeadoo85dkcp8AVlV4tSKWQ3iuRIU0kU3ge1Q5ACPzN6lzzwYzHDhwBkUtGPkC8ueXO6C/jkehz1sDwJkl6xHQjQwOLbL8VpB1l++K70Xi0y3x+lpdVjmRhHWN4NgC+ROePXNSPPIgCXSmJBl4lQA3yJTvaEO9scPYTXxxXYhfBkExO1J25sd1f/pVsnxBbd9Q7W9NWHxBp/943p/YORkU1PabPn9lHuykVdP22GXeJr3/gDPdoiamVmMcRTzprHnUA2MDTXZ3qR0q2X2NnUeK2IyYVR39qOH4YF9jpAqRIFjHv3xNNK/zHKfvZx4tW/moV8FwjOwl7Xz+y84wAghe8h4K4vqo6/lm9592M6vReK59CVsWk6XP3sSKCrjc9gUhzjBTL5vlkMmH3h4giw18RIgKocXuq3ZLlPnp2G/e+qZR8wNf2a5RIO8jaN03eWkdOaydQqA7vff7ucfQAq4U9ZvaFGbBLauUlrpabNxPluU2fgqoudrxWNwpDnLhFtNQ61jNVM+SbJxjVJw3UDntQIvB+g+R5zGXCqbViF7bmrPOMfQUZpjVn4YiCm4OAPduSp68aSrM9bfVYKjXlxSV6AeBkLKZnmSlYq9hPMYXJodFt0Ki4fPmghZc2thyxeP2SMAeY8WpS5Dis6R+4+qrh0=
+
+%URL%
+https://ytdl-org.github.io/youtube-dl/
+
+%LICENSE%
+custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595912565
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+python-pycryptodome: for hlsnative downloader
+

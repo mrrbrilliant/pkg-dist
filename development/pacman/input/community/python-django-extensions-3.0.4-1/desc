@@ -1,0 +1,58 @@
+%FILENAME%
+python-django-extensions-3.0.4-1-any.pkg.tar.zst
+
+%NAME%
+python-django-extensions
+
+%BASE%
+python-django-extensions
+
+%VERSION%
+3.0.4-1
+
+%DESC%
+A collection of custom extensions for the Django Framework
+
+%CSIZE%
+283572
+
+%ISIZE%
+1451969
+
+%MD5SUM%
+c45a4d340e3a5dcc64c7acbcaec97a09
+
+%SHA256SUM%
+f8f70d4658f3fc70e43b51824adcaa45aaeb63b91cec22e479ec3f1a48eb8bd8
+
+%PGPSIG%
+iQEzBAABCAAdFiEElDfdOBWnqRaePTlGr/XZUJi8b/UFAl8rGmEACgkQr/XZUJi8b/VI5Qf9G4a4s6Ff9e+/TGq74tqxAwk7Nb/VWYnTwDGYGBLv6OY4R6CLxAvUNXWpxcUP3mFiIOYU2ESif4vB7TurYzYysYOiQoxe6Fs+xmUUIgrY/c4mECHq6hTBXd40yrcO1fpkhMiwdRiNpfo/a+IOee97eFVIYRk/Oksy8clgMxNnOwt8TheiFs2GbCrlsC/a1B6JYHOOTGGF9M+HCVedioT67FLNtSx/KsqxvFFBbE5WESE50Z3vIyOafU57Dw0l1uWbMiz2Aheo98zPMYs071PPojFcKYZPrHRQGgAtZXzy3uuFwROfeU0Hd3WdI2/GdTwy77aNAYtsU7TqbdIzf0pO5w==
+
+%URL%
+https://github.com/django-extensions/django-extensions
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1596660298
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+python-django
+python-six
+
+%OPTDEPENDS%
+graphviz: graph_models extension
+ipython: shell_plus extension
+python-werkzeug: runserver_plus extension
+
+%MAKEDEPENDS%
+git
+python-setuptools
+

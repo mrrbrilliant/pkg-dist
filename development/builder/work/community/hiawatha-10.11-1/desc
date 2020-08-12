@@ -1,0 +1,56 @@
+%FILENAME%
+hiawatha-10.11-1-x86_64.pkg.tar.zst
+
+%NAME%
+hiawatha
+
+%BASE%
+hiawatha
+
+%VERSION%
+10.11-1
+
+%DESC%
+Secure and advanced webserver
+
+%CSIZE%
+176868
+
+%ISIZE%
+500112
+
+%MD5SUM%
+0e3e3f33a50fb47d884b5fbdd6bcbb8b
+
+%SHA256SUM%
+44e17f14da5ccecb0bdd8aceb0bc1d46fe6cbc4b34d3aafe0cf881aea558ac74
+
+%PGPSIG%
+iQEzBAABCAAdFiEESMOx8w3dD+Z+UW0WOW4+JbqxQsEFAl8h9G8ACgkQOW4+JbqxQsG5RwgApoBWK7/eTm+IQHh4DwVfOgqeL/BZaRJzdPF5116iQjJ+CsXJeL3BN3OXdxRd+3FqtxCKg2e82ae44P1oUl2v8vbbWj1Ml2AfW/1l0la6J3t9DZoorotl8z6SVR+TBe60d/mkU2xqOk/b/Wy9Pwekov4P4XZsjG3Ta4AmUPSMtDiWxsT5A2QjlxC4RfcvKXrNQgMMm67Slbkdjmbuo1sI6roUUQqhNisJGxUQTXk58bvdmtJA9kbKfO82NHpFXAzuOGgUdBa2dlne5m8uoQqKf5dmEy23p+y/pfP735ypVj+8/47H6aPcDkHITBfcU5WBdYZaoURMEyq/QWIubvtmrQ==
+
+%URL%
+https://www.hiawatha-webserver.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596063152
+
+%PACKAGER%
+Kyle Keen <keenerd@gmail.com>
+
+%DEPENDS%
+libxslt
+mbedtls
+
+%OPTDEPENDS%
+php-fpm: PHP fastcgi
+php: letsencrypt/lefh
+
+%MAKEDEPENDS%
+cmake
+

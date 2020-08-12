@@ -1,0 +1,70 @@
+%FILENAME%
+samplv1-0.9.16-1-x86_64.pkg.tar.zst
+
+%NAME%
+samplv1
+
+%BASE%
+samplv1
+
+%VERSION%
+0.9.16-1
+
+%DESC%
+Polyphonic sampler synthesizer with stereo fx
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+447163
+
+%ISIZE%
+2039504
+
+%MD5SUM%
+898ddc51b686da8649fad8497e971f53
+
+%SHA256SUM%
+a91bb82a8566c01306be8f8edb18ed98bbf3304492c1a5182a8ceb72846383f5
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXywe6gAKCRByWHNLQcMVSarkAP447l7EnlsgwO8u+WUpJm8ZIZ5ZzDAIUsDPW02P80p/CAD/XlIzZenDiBFIdHxinLuoLjJjTSwB+VevFxzTUGruLAs=
+
+%URL%
+https://samplv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596726746
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+qt5-base
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+non-session-manager: for session management using the standalone application
+
+%MAKEDEPENDS%
+alsa-lib
+jack
+liblo
+libsndfile
+lv2
+qt5-tools
+

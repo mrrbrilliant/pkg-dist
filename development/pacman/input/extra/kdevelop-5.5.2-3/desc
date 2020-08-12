@@ -1,0 +1,98 @@
+%FILENAME%
+kdevelop-5.5.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+kdevelop
+
+%BASE%
+kdevelop
+
+%VERSION%
+5.5.2-3
+
+%DESC%
+C++ IDE using KDE technologies
+
+%CSIZE%
+9919341
+
+%ISIZE%
+34793867
+
+%MD5SUM%
+0532ed8ef36b3bafea091d7bffff4729
+
+%SHA256SUM%
+7530c0f820a4c091ea9cb73d9810126faaa46aa3e333f36e2f249737f48a372b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAl8Yr6kACgkQUeixSKmZnDQngQf/XajR2dUEuXB1/x8UkoVAYsg0N5SW3HIF07TzIaPdSJeKSK1UBpUqukaifVbntjtKQ2ptnf5AyKYL5Rh2xJ+YCRZFQTVN7v5bHAVRE118uQy0l71XSLhqu1GLJVXruHJoeS8RG82wN+pKpzhP3j6poT1Q+DfyqatGKmkIrJO6Az+qTn/MdM62C8vJZwH5N8q+Kr5IJ7MvyB2WymJe+MtAkj10iFj1Iyr3f4NBzcC5o45ePpf3moKAdFd6Ypam18G3lF3adzRSMustijEv/YTGdU4mr3qjqzTYdRuNF+5PgIwOU8J10mZ06LVEagCQw7Id020moBR9zW5h61w3Lr/tGA==
+
+%URL%
+http://www.kdevelop.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595452257
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%REPLACES%
+kdevelop-qmljs
+kdevplatform
+kdevelop-clang-tidy
+
+%CONFLICTS%
+kdevelop-qmljs
+kdevplatform
+
+%DEPENDS%
+clang=10.0.1
+libksysguard
+kitemmodels
+knotifyconfig
+ktexteditor
+grantlee
+libkomparediff2
+kcmutils
+threadweaver
+knewstuff
+
+%OPTDEPENDS%
+konsole: embedded terminal
+git: Git support
+subversion: SVN support
+gdb: GNU debugger support
+lldb: LLDB debugger support
+qt5-doc: Qt documentation integration
+cmake: cmake integration
+meson: meson integration
+qt5-tools: qthelp plugin
+okteta: GNU debugger support
+plasma-framework: for the plasma addons
+purpose: patch review plugin
+astyle: astyle plugin
+cppcheck: code analyzer
+heaptrack: memory profiler
+clazy: clazy analyzer plugin
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+kdevelop-pg-qt
+llvm
+qt5-tools
+plasma-framework
+krunner
+okteta
+boost
+purpose
+subversion
+astyle
+

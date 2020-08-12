@@ -1,8 +1,8 @@
 [workspace]
 members = [
-    "shared-library",
-    "package-manager",
-    "package-builder",
-    "deriver-discover",
-    "deriver-pacman",
+    "pi-library",
+    "pi-package-manager",
+    "pi-package-builder",
+    "pi-deriver-discover",
+    "pi-deriver-pacman",
 ]

@@ -1,0 +1,65 @@
+%FILENAME%
+dmd-1:2.093.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+dmd
+
+%BASE%
+dmd
+
+%VERSION%
+1:2.093.0-1
+
+%DESC%
+The D programming language reference compiler
+
+%GROUPS%
+dlang
+dlang-dmd
+
+%CSIZE%
+1857797
+
+%ISIZE%
+6669880
+
+%MD5SUM%
+14714e7d9a3576b90d6fdf3b5246679e
+
+%SHA256SUM%
+3fcf96981fdf4ffd918798b1f87d6b398c7196b0ffee6da43cd15aae360adeab
+
+%PGPSIG%
+iQIzBAABCgAdFiEEhsATU8sh1GdlMu4OnwqcF7B4bxkFAl8TM+gACgkQnwqcF7B4bxnSVA/9GZMA8avXLLCVFZy0DwOS1VNVGwmIYZSUHvuOhfOrS/5htn5d6+EISbniLktc+SM09dYbKH26ZQuz5Yk0FC2H3cov6UHa+DpUpjJKbxtnNwwSlzFESeXUJgt8DK7WQYFoWPzSremkDesIdBNAsVvFIr7Gsc1pF5M1PVA2I6kpH+2GxhpQ+JKaoyqaqdcTw4q5YcjLawYZRe6wgR+lwk09dFVnxyXbWCTww0tCur0v5mOxLM/e9LQ2qgU+2aVJh+62dUBgZzc3f0Xpqrqh6kuRI5n7V+dJKrgvCMYV8mvq4uJVY0cVB5hsgApAph442IsWgsVv67/2B2+/c/zNxeKS0HAibIGtfec/iCZt/xAeS0LEHPWV+1wQ62KQCK4SnS37cwuFhzxkeP78B7emyRXLQNi5cXXunED/tzAiCQDQPJJcwPYSxC05Ij5/Zw0TLj915MqWuYwqih/bYPjcNq/JOpDL695gBy9g9tsInhYc5NkYK4ke102m2AKN28+LCAC5gglOOPFIF3XWgp+21jFSKCgPbo2kUt2vcWs3Hos/+72qn2GWvHJdsvC0stxeORQw6z466Az4u+er/QlhQBa38VzCR0T14wSQjQZhuo539SqM3HtVvQxWrlEPtQd3DyYbdCJHgYECWlMTh33K8jsGuhU1xp/Yk0t1W9jWJcS0lSQ=
+
+%URL%
+https://www.dlang.org
+
+%LICENSE%
+Boost
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595090847
+
+%PACKAGER%
+Dan Printzell <arch@vild.io>
+
+%PROVIDES%
+d-compiler=2.093.0
+
+%DEPENDS%
+gcc
+libphobos
+
+%OPTDEPENDS%
+dtools: collection of useful utilities for development in D
+gcc-multilib: to cross-compile 32-bit applications
+dmd-docs: documentation and sample code for D
+
+%MAKEDEPENDS%
+git
+ldc
+

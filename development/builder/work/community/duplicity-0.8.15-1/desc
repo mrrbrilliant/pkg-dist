@@ -1,0 +1,66 @@
+%FILENAME%
+duplicity-0.8.15-1-x86_64.pkg.tar.zst
+
+%NAME%
+duplicity
+
+%BASE%
+duplicity
+
+%VERSION%
+0.8.15-1
+
+%DESC%
+A utility for encrypted, bandwidth-efficient backups using the rsync algorithm.
+
+%CSIZE%
+636804
+
+%ISIZE%
+3319604
+
+%MD5SUM%
+5bd8cb178ee701bd8b825796fbc92174
+
+%SHA256SUM%
+60cd87cbda0494e540c2addc92d67fdfb544e5de229db51f3f541eebc70e8ca4
+
+%PGPSIG%
+iQIzBAABCAAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAl8r4S0ACgkQqRdkdZMmtEAHpw//V2WGDZdezxCobzk7uts3+hXT+iZoiLSrcNyMwn6LFWN/QM6ltbSN3hchP42o6aRUUcdQRZ65ngwR6DBsYNtUPcVPufd7OMeoCw52URb2vRp2Fg9Z9aupuRrzmbOEPiqGFSspStPP+PNZ0e4EiIBg79SsaWV2ZPB3NfgolkApBtx7RL0JhDtWacRvsbGhIp27Z4UuAXmYskNJhsEiC8lVKGEEWlIGTs6WzEm8pvz2RqO75RSQTiMVTY43D6A45Ge+AZlYZjt8+av+vMDKxsxPbuEAEiYBIFWmYJT+3FCUgbuwCh2ijvLtmaplokF5BPhCn3YRRfPFlt8XNddXvaDizYLzPC8d9NodKc52lzFcv8d19VU3P6j2PSftuz6fI/9sgDTnHvqeWVpGpEYYWwIe+lFo+4dlEPjJwxP2fYMGlOsMAi57yGP7CmaA5wfc/Uh2coDLkSSj+/SElONM7kbt9tm/f6zZbslY53JcIq9Dd2cdix+VbYkdp7yspNQW4wm2PFxqJNXuFXs1h3n3MUm+yf0PsCMn5UYYxdjY2IXTLVaO0/Y/D105W1apxcbgdI1eji+RdB0CXe/WDDtgSphJoIV8QpcJhm9a1pDO+133NlrgwT/KJTJaMEdalQWiI0dpb9ORfwuturU/2WBqEG/0n/QtEl9BmALbopdPi2c3OB0=
+
+%URL%
+https://www.nongnu.org/duplicity/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596711170
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+gnupg
+librsync
+python-paramiko
+python-fasteners
+python-future
+
+%OPTDEPENDS%
+lftp: backend for ftp, ftps, fish
+ncftp: alternative backend for ftp
+python-boto: Amazon S3 and Google Cloud Storage backend
+python-dropbox: Dropbox backend
+python-gobject: GIO backend
+gvfs: GIO backend
+python-pydrive: Google Drive backend
+python-requests-oauthlib: OneDrive backend
+rsync: rsync backend
+
+%MAKEDEPENDS%
+python-setuptools
+

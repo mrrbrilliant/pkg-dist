@@ -1,0 +1,68 @@
+%FILENAME%
+ark-20.04.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+ark
+
+%BASE%
+ark
+
+%VERSION%
+20.04.3-2
+
+%DESC%
+Archiving Tool
+
+%GROUPS%
+kde-applications
+kde-utilities
+
+%CSIZE%
+1275403
+
+%ISIZE%
+4078739
+
+%MD5SUM%
+148a499d5348a24923e2d54358f292d1
+
+%SHA256SUM%
+8354624efbcfaf7ef175a46f72f33ff13148796b39b014ead21a8c6f38412f9e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8iY0UACgkQek52CV2KUuRgsQgAlQtqF3T9mrJCr2xcYZTOvZYXbpo3NVvlFxgFgnSVe2ezlcneIXY3ouMeZTTf5C40SMQebMo5WoUFWGBU5J856r1YtaUMAuItK5pjl0+WmkELo9edOJdpFBKoAxdWp9g4eibhTYa8/Exw/18tOgLSwtPQmr2CsQ/EiZ/MT2eRtVhvNzLckzNV5dDzfPluoEPud2mKNAqe2ejLkW2NnbkDVEn/WulY0X/q0s91rKmjqON3rjDhBjbRhc1gARg0Y7S119v6INKD+ooHzCzY7kYhQHVbqcKvfJale+CpOPN5CBAtyA6jjk5Zq3qXW17XRysFT4dbj8l+775wb4W5ZpySNw==
+
+%URL%
+https://kde.org/applications/utilities/ark/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596089068
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+kparts
+kpty
+libarchive
+libzip
+kitemmodels
+hicolor-icon-theme
+
+%OPTDEPENDS%
+p7zip: 7Z format support
+unrar: RAR decompression support
+unarchiver: RAR format support
+lzop: LZO format support
+lrzip: LRZ format support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+

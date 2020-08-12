@@ -1,0 +1,77 @@
+%FILENAME%
+sway-1:1.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.5-1
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5280628
+
+%ISIZE%
+5839589
+
+%MD5SUM%
+2db8b3aec158b745387be1bc5a1a9ce0
+
+%SHA256SUM%
+735ff3fc23af5c568cc8d424a628aa21035a79144bd9975b996ff9277020fdb1
+
+%PGPSIG%
+iHUEABYIAB0WIQQrrTV83XSdUIHyTz2YyyfgKmgI2AUCXw+t1AAKCRCYyyfgKmgI2KJhAP9cH6BYGL42PeI49FGWb8EXmPO3zZPCZoNZo1kl2NR0ggD/WK+hQwA6vA96E3ItWP4KP1Di5ay0bwK8dVOaUOqSlw4=
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594862563
+
+%PACKAGER%
+Brett Cornwall <brett@i--b.com>
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+json-c
+pango
+polkit
+pcre
+swaybg
+ttf-font
+wlroots
+
+%OPTDEPENDS%
+alacritty: Terminal emulator used by the default config
+dmenu: Application launcher
+grim: Screenshot utility
+i3status: Status line
+mako: Lightweight notification daemon
+slurp: Select a region
+swayidle: Idle management daemon
+swaylock: Screen locker
+wallutils: Timed wallpapers
+waybar: Highly customizable bar
+xorg-server-xwayland: X11 support
+
+%MAKEDEPENDS%
+git
+meson
+ninja
+scdoc
+setconf
+wayland-protocols
+

@@ -1,0 +1,94 @@
+%FILENAME%
+libquicktime-1.2.4-23-x86_64.pkg.tar.zst
+
+%NAME%
+libquicktime
+
+%BASE%
+libquicktime
+
+%VERSION%
+1.2.4-23
+
+%DESC%
+A library for reading and writing quicktime files
+
+%CSIZE%
+369290
+
+%ISIZE%
+1407462
+
+%MD5SUM%
+d230b5fc53a5aa7dc6606a5d125932c6
+
+%SHA256SUM%
+16883209d49c1b940f3170fe3ad2a5756f91ca5c737b958f020a74f919918a01
+
+%PGPSIG%
+iQEzBAABCAAdFiEElDfdOBWnqRaePTlGr/XZUJi8b/UFAl8qWQAACgkQr/XZUJi8b/VEyQgAlz00xB4eJm8HD528SyJHOBsRwjCPOiBGZA0T48ekM/7lkIeGLZ2Q2tFKZDgDHYF+IHYqmpEbdJV7GzMhkB99U8ntl8MdHCNlqhxDH8+EFhWvypizUgqWAz80HXsupLybSIh3a+hrYjRGO4oGfwG1kqXP6foFaO7v1wRlDkaFHiDz3uzadrkaqBWPUlyfscDDFW+8YinS/Xvp5WtWwjmtat1wSVGfpZGZmPo8XbR/hlqaFYqT8az/OKXeAaAT/C1N+wE4XFJKWxV4e1DOH1GjoyCar8zMo79IKKmFvSZVG4/cdTnLxWfkIIIpAAKhc6K0T38Ld64Y9gwrtqOQLx6X/A==
+
+%URL%
+http://libquicktime.sourceforge.net/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596610523
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%PROVIDES%
+libquicktime.so=0-64
+
+%DEPENDS%
+glib2
+glibc
+zlib
+libfaad.so=2-64
+
+%OPTDEPENDS%
+alsa-lib: for lqtplay
+faac: for lqt_faac plugin
+ffmpeg: for lqt_ffmpeg plugin
+gtk2: for libquicktime_config
+lame: for lqt_lame plugin
+libdv: for lqt_dv plugin
+libglvnd: for lqtplay
+libjpeg-turbo: for lqt_mjpeg plugin
+libpng: for lqt_png plugin
+libvorbis: for lqt_lame and lqt_vorbis plugin
+libx11: for lqtplay
+libxaw: for lqtplay
+libxext: for lqtplay
+libxt: for lqtplay
+libxv: for lqtplay
+schroedinger: for lqt_schroedinger plugin
+sndio: for lqtplay
+x264: for lqt_x264 plugin
+
+%MAKEDEPENDS%
+alsa-lib
+faac
+faad2
+ffmpeg
+gtk2
+lame
+libdv
+libglvnd
+libjpeg-turbo
+libvorbis
+libx11
+libxaw
+libxext
+libxt
+libxv
+schroedinger
+sndio
+x264
+

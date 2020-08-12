@@ -1,0 +1,72 @@
+%FILENAME%
+ansible-2.9.11-1-any.pkg.tar.zst
+
+%NAME%
+ansible
+
+%BASE%
+ansible
+
+%VERSION%
+2.9.11-1
+
+%DESC%
+Radically simple IT automation platform
+
+%CSIZE%
+13691198
+
+%ISIZE%
+147465069
+
+%MD5SUM%
+1956a8ba851f37db63fead78b61ed7da
+
+%SHA256SUM%
+f0d245ca06b692884e83c01bc4a2fbfc95f4a92f58cb5ecfbceb2765d2ef28ce
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAl8WwQEACgkQOeS4d+YuuRVIZBAAmyFd46iSCvxaFJHeFFGPpeZQZk79ayc/TELZFMIGFZb671uFkBR+sPrMOENS5HCXKvaymkuCdJKcIm46oDeVuUZ/5rfZPftvPijvEb8+ixrjPfh5j5useAAw1asHpV4hSU0DP3JaTRqiJlvlSS8h9vJogeX2f7W0QyInS2MMsFK+IxTNyqhzYGJ30VskTew4jgI+Xc/ebd+D4dp0lWKWNHfgDSTjDxEku3dFLnY/BlidX4OsWqQYwRyib3Czid33Ezw2K2vf7nxz+O6uNaygGmO5h8xr8ucmjxoauOgzMmXQwtZCMpMqbDwdlvbE5eWVfksPBeAqD3K7Zg/egOdgP2NStgkc/fs0ESBDaDe5NrboKR4TM9ehoMbt2+3Mf5MKe30Eicc+TLcfCZVH+WqUVhqzXr3qogKjNAbr+7IA6fNyvRy/T+vY+cXSV9vDDhcCIgYC39wY2qdQfeP5V7d86HKFIAFyQgJngU6XfIbbMLL3GY28edUXggUl63C+gAf24YIw8V86+KtnQ4ElLXSOn+t5OJ9CAyGvOqMlKnGQGy4iGjeqlkO0WxLUy6pCDHhojfmAT067Soo+zlq1eycHlUi5LzPILa6nthn8ybqfBX4sBBMOCyf3Nau5e6HcPHhIDTAPu9teAn3C7hmJU134RctSAgWDQ8h5ZnIHr9lzaS0=
+
+%URL%
+https://www.ansible.com
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595326557
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@gmail.com>
+
+%PROVIDES%
+python-ansible
+
+%DEPENDS%
+python
+python-yaml
+python-paramiko
+python-jinja
+
+%OPTDEPENDS%
+sshpass: for ssh connections with password
+python-passlib: crypt values for vars_prompt
+python-pyopenssl: openssl modules
+python-netaddr: for the ipaddr filter
+python-systemd: log to journal
+python-pywinrm: connect to Windows machines
+python-dnspython: for dig lookup
+python-ovirt-engine-sdk: ovirt support
+python-boto3: aws_s3 module
+python-jmespath: json_query support
+python-ldap: ldap support
+acme-tiny: openssl_certificate module
+
+%MAKEDEPENDS%
+fakeroot
+python-setuptools
+

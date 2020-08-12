@@ -1,0 +1,62 @@
+%FILENAME%
+python-nltk-3.5-2-any.pkg.tar.zst
+
+%NAME%
+python-nltk
+
+%BASE%
+python-nltk
+
+%VERSION%
+3.5-2
+
+%DESC%
+Natural language processing in Python
+
+%CSIZE%
+1928785
+
+%ISIZE%
+13101535
+
+%MD5SUM%
+a8242b40073c55f44c852fc193fd4951
+
+%SHA256SUM%
+35e856afb623f855b6994940098caf7bc6f459f69a1f4df50c7c879f2ddd594c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEktnGzemaICTWkKdu50JoO6CMsv8FAl8NrEUACgkQ50JoO6CMsv9law/+K4sDW1+GnjaL/vaN3Gd+4CfWmLtIf8RgZy3cSysdcihZ1vcy9GoTbiLzJ7cT68RpzH6QdtzoLpVHlkyJOrKZ1pVqlfpV8JPpODIAJmayNahNiHiOxUufy+NdzkufGpWIZzwUij4wHSb3Bo6l2nc8ouV3LZh7rk/vqjclMjwcUAXtY3SXwiaMb0zJ16m8XhtEl7WmT3OWDEsCWKVz2q67lbYNQ2s566Y+puFouAaieLElprvXv6tbydeb/qRtcl6C0OMZFuXDq/+WVVVlUziUmF/3vG0rDlVYWGjTsjbcydwk8TMVcOJuiVpHvhETzEyMMTFRRuRIrrG+Jk1YWzGnhifY2eLZG59NYEfAdvlnC82Vt4NhrS3vGuZ3CY6Vaz5BGZ+57tkZch6Rro49+wlPqcyk7ssGMJtSwQFGBjiC3e7uvD8Cr0RS1gkcWcN9QufLvdF5fVX5mmdhii2zgqkj/iWPKh2eLV3w0PCzi2zVrGaVtrzuZiTooUxEg657fuVqmW4gIv7SsZRy3QxPN5wU0z4bztv7b1khAhVgldhDwjTsILU7J87JzOvV68sbSNSr51cizYw7eMAx8GgPYQV1f6utIKwxFsBsw5Xv4UfxW1czg1iG/xvsMyQiVgPhd1sIkUmtzcxxM9CAJ1fOQQhlLaAtRe1ylLqJJZlM5/1Qxmc=
+
+%URL%
+https://www.nltk.org/
+
+%LICENSE%
+APACHE
+
+%ARCH%
+any
+
+%BUILDDATE%
+1594731371
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+python-yaml
+
+%OPTDEPENDS%
+nltk-data: test data
+python-numpy: used for calculations
+python-matplotlib: used for plotting
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-nose
+nltk-data
+python-requests
+python-regex
+

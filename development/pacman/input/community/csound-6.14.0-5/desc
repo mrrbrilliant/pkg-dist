@@ -1,0 +1,116 @@
+%FILENAME%
+csound-6.14.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+csound
+
+%BASE%
+csound
+
+%VERSION%
+6.14.0-5
+
+%DESC%
+A programming language for sound rendering and signal processing.
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+2089038
+
+%ISIZE%
+7711939
+
+%MD5SUM%
+b30933ea0b9bb74eef6d2623d3a074c2
+
+%SHA256SUM%
+a38cd68904d581266d0eb1f10c9bedd6c05189abe94c80c3694ea32c8546c1f6
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXwoM3AAKCRByWHNLQcMVSRISAP9vnSKToGcKmKYRsYZE704WN0bBDs5fMQumnqAdRq4XegD9HdXHEsPH2fO8/sdQoe00DONbYPPc3qDVupF7En9oegQ=
+
+%URL%
+https://csound.com
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594493243
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libcsound64.so=6.0-64
+libcsnd6.so=6.0-64
+
+%DEPENDS%
+gcc-libs
+glibc
+libcurl.so=4-64
+libsamplerate.so=0-64
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for librtalsa plugin
+csound-doc: for the canonical Csound Reference Manual
+csoundqt: for frontend/ editor with integrated help
+fltk: for libvirtual and libwidgets plugins
+hdf5: for hdf5ops plugin
+java-runtime: java integration
+faust: for libfaustcsound plugin
+fluidsynth: for libfluidOpcodes plugin
+jack: for libjacko, librtjack and libjackTransport plugins
+liblo: for libosc plugin
+ncurses: for libfaustcsound plugin
+libpng: for libimage plugin
+portmidi: for libpmidi plugin
+portaudio: for librtpa plugin
+libpulse: for librtpulse plugin
+stk: for libstkops plugin
+libwebsockets: for libwebsocketIO plugin
+wiiuse: for libwiimote plugin
+libx11: for libwidgets plugin
+lua: for LUA integration
+openssl: for libfaustcsound plugin
+vim-csound: vim integration
+zlib: for libfaustcsound plugin
+
+%MAKEDEPENDS%
+alsa-lib
+boost
+cmake
+doxygen
+dssi
+eigen
+faust
+fltk
+fluidsynth
+hdf5
+jack
+java-environment
+ladspa
+libmusicxml
+libsamplerate
+libsndfile
+libwebsockets
+abletonlink
+llvm
+lua
+openssl
+portaudio
+portmidi
+portsmf
+stk
+swig
+wiiuse
+
+%CHECKDEPENDS%
+cunit
+

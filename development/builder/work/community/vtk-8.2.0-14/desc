@@ -1,0 +1,114 @@
+%FILENAME%
+vtk-8.2.0-14-x86_64.pkg.tar.zst
+
+%NAME%
+vtk
+
+%BASE%
+vtk
+
+%VERSION%
+8.2.0-14
+
+%DESC%
+A software system for 3D computer graphics, image processing, and visualization
+
+%CSIZE%
+36863097
+
+%ISIZE%
+202775621
+
+%MD5SUM%
+ae127f550c7eb6e51cde8bce91b03ca9
+
+%SHA256SUM%
+bd64a1e9ff650164a4bc8316ff380d6f9c462d85981be8ca9ad1b9dd753360bc
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8QJ5gACgkQek52CV2KUuRgdggAj/mGbrZpWeK8qjpytAo9euIJAWU5/89/gA4tsJleFohYZ5+vW3zUr/IRwANK8VYhFqB9VnQhGijs6yKp2v3bd2+Rhgva9UbQT8X2j8qOVIK/AV0arUCgmUXs9ny58f89CVxqOOcGCv5sADocSxthQL9Z+JwEaqlH7WxoRy+k3YCmjkCVw2JAnpuSbbUKX1X966nUFhhP7H0/RyY7MrWmUj/XLE9Jkga/xgttfvguF27wNdm4NFAtNScbySnBCe+FAnQi4X+j4N7U/eu99BGILSEjlqmKm6gko9OeNJ23CMg4oh+1f6u0eEoOb36xX0AloMXO1WUFx9Jz1YJsSmnZ8Q==
+
+%URL%
+https://www.vtk.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594891905
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+double-conversion
+
+%OPTDEPENDS%
+gnuplot: plotting tools
+graphviz: drawing tools
+java-runtime: java bindings
+python: python bindings
+python-mpi4py: OpenMPI python support
+python-matplotlib: for Matplotlib rendering
+openmpi: OpenMPI support
+qt5-x11extras
+qt5-webkit: WebKit support
+tk: tcl bindings
+ffmpeg
+gdal
+glew
+hdf5
+jsoncpp
+lz4
+netcdf
+pdal
+pugixml
+proj
+sqlite
+unixodbc
+
+%MAKEDEPENDS%
+cmake
+boost
+doxygen
+ffmpeg
+gdal
+gnuplot
+java-environment
+openmpi
+python-matplotlib
+qt5-base
+qt5-tools
+qt5-webkit
+qt5-x11extras
+tk
+unixodbc
+wget
+double-conversion
+eigen
+expat
+freetype2
+glew
+hdf5
+libjpeg
+jsoncpp
+libxml2
+lz4
+xz
+python-mpi4py
+netcdf
+libogg
+pdal
+pegtl
+libpng
+pugixml
+libtheora
+libtiff
+zlib
+proj
+sqlite
+

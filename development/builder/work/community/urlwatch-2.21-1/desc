@@ -1,0 +1,62 @@
+%FILENAME%
+urlwatch-2.21-1-any.pkg.tar.zst
+
+%NAME%
+urlwatch
+
+%BASE%
+urlwatch
+
+%VERSION%
+2.21-1
+
+%DESC%
+Tool for monitoring webpages for updates
+
+%CSIZE%
+88923
+
+%ISIZE%
+429404
+
+%MD5SUM%
+c1851cea297c375c9de614e725edbedf
+
+%SHA256SUM%
+ee404bcf855bc2070e33541129bfccd2f8cf1d769de9110b55f42c5930e9d73f
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAl8j84UACgkQ6k97MhqQatn9Jg//dzWnqV5bFYSnR1HsOXYGEU+xaSU6iOG0WLvlU+5Wk7R+E46+hXQ2N7qpBJoG/PwAFzi9eiLfyZFJI0ee5y/bzar88IQkrqri1AxfMzkxDhOGVmPdZsrbnT41Eh5GCCuvW5TIUplfoCh4+kfwXm7elJ4OwYmE89v+UnKg1uAeKIM7p6Ivxz90ZA79qrBjSgmx4yJMyScTimaqnpJUqS170VYWe6Fn/BQbhJ0+BUhdGW2KFAnOEerW03OszqRkIqT1P+XMUgT2jt2MAc9eQvRTrxIDEn5izn03wm5bhjPul8JJzr0NLKpHF3XGqVk681wx3PMPZvIag9ZHt1sh18TpZ/jEmRtxlAvlL++ZuUl5U2MhKzCzpfqWRqhsoMQOkeeFXbXs+AgwnSrhSiezGZPl7KLv5xBTVhMl6RiSWdDm/B2isrorlL1qLBZANWHqjGkrkqufJgKA4jos4IVY09b8S5tyfqKNAutXiC0lQyf63yoioCA1spoue0/acnpAp2S8BqNGgt67FgrUxKdgpQgRN17hDCzAZ79tzlvmJYeIoHTU+gDEHnUMDGkvtev3yoSy91Yf9iTIDEtyKCZ86aP7vM+wTaP8BcrB7lc2JhrCyw1XWINubdV9X/MwezvtHDA0xW42j6XRAdo0ub6ooim7NBGPOFkVTmvcAgzUSRcWH/E=
+
+%URL%
+https://thp.io/2008/urlwatch/
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1596191354
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python-appdirs
+python-cssselect
+python-keyring
+python-lxml
+python-minidb
+python-requests
+python-setuptools
+python-yaml
+
+%OPTDEPENDS%
+lynx: for one of the html2text filter methods
+python-beautifulsoup4: for the beautify filter and one of the html2text filter methods
+python-cssbeautifier: for the beautify filter
+python-html2text: for one of the html2text filter methods
+python-jsbeautifier: for the beautify filter
+

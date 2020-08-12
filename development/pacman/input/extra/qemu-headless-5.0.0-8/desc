@@ -1,0 +1,82 @@
+%FILENAME%
+qemu-headless-5.0.0-8-x86_64.pkg.tar.zst
+
+%NAME%
+qemu-headless
+
+%BASE%
+qemu
+
+%VERSION%
+5.0.0-8
+
+%DESC%
+QEMU without GUI
+
+%CSIZE%
+7885927
+
+%ISIZE%
+36755914
+
+%MD5SUM%
+f149837ae741b70c1bc8d72991011b27
+
+%SHA256SUM%
+01462b3c621be2d77290c11b2ecfd0eff88c31d2c2f621d79111d75530543909
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAl8Y3UIACgkQsChU7XU+Dx/+DBAAj3RrMh7L2O0Tgga6784SnPJvg25kOYWPJyXpx+2KfKV7PiiL+GUnOIW1VtJ8vuzPOFQ7IVfEy7YJ88MaSA4mlld2g+UApUBA7MtyK29TLCM1DUHAE7b/gxCbeyAy6HozwLwlIB6kjiuv402Q3I3fPdKT3fCN+9DBZrXzU7OUpC8nrtmoHGf5+frlEY41Mj/pg/+wiac4HMS3J4Dg1L9yxJPLgj8IJ03FyYbkbazH7rfFnEsUEhGUOQtOv8MDjjSRu2HQgugK77zlfapC1zM3uWoMXVv3Y8Gg24sB00kcz6TJ0KnfDAnwf3/LbPbbcD59MWcw9n5Eh3sbtt/UnuLhUR6UN+zGayjLsJnAQO01fViZnQHyrWrcyTyUzRkcga6GV/vFd5Tg+0bbsHFUzzPeKfD4R64EMHgYw3wDWjwGYATfR1NfMLI0HULpoTalaAwjfUN/OfFPl0LDjq2Yu/DJ2tOVeF5qgokEyah/97t2m8wM1VW7PaTQtEENbvsWDZDK4pyBCr+X2jg0X65jzLYhDnm4f5kOrDuNRxPv/2JR7BMj0YFep9wJep8mm3PBu1VT1YognsTj/ZEyFImpnv7vOwM/L7mFrrMiaSfoH4EcxkN8gQdxR3tpX4bXC8X+nNliWZ2gRLD8Vsmjrr+do7cOp+bWuq8DgbYb9dlJkkO+sGM=
+
+%URL%
+https://wiki.qemu.org/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595462376
+
+%PACKAGER%
+Anatol Pomozov <anatol.pomozov@gmail.com>
+
+%DEPENDS%
+seabios
+gnutls
+libpng
+libaio
+numactl
+libnfs
+lzo
+snappy
+curl
+vde2
+libcap-ng
+spice
+libcacard
+usbredir
+libslirp
+libssh
+zstd
+liburing
+
+%OPTDEPENDS%
+qemu-headless-arch-extra: extra architectures support
+samba: SMB/CIFS server support
+qemu-block-iscsi: iSCSI block support
+qemu-block-rbd: RBD block support
+qemu-block-gluster: glusterfs block support
+
+%MAKEDEPENDS%
+spice-protocol
+python
+ceph
+libiscsi
+glusterfs
+python-sphinx
+xfsprogs
+

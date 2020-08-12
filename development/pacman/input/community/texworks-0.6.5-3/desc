@@ -1,0 +1,71 @@
+%FILENAME%
+texworks-0.6.5-3-x86_64.pkg.tar.zst
+
+%NAME%
+texworks
+
+%BASE%
+texworks
+
+%VERSION%
+0.6.5-3
+
+%DESC%
+Unicode-based, TeX-aware editor with integrated PDF viewer
+
+%CSIZE%
+2505641
+
+%ISIZE%
+5958746
+
+%MD5SUM%
+fdc3dbc24ebd8f5984e5cd8aaa215cab
+
+%SHA256SUM%
+d8c38f6123b0345232015a311748aedb4cacc91a935f9f3ab4127d46555c7e1b
+
+%PGPSIG%
+iQIzBAABCgAdFiEE0ZGnjxiB84R1PJZ+aGsGOsS8DskFAl77XqYACgkQaGsGOsS8DskjHQ//aHHck2QaqYuOdNNhYWAGyJNZ+hzTKz8xs6ox4r+94vtkgMDKsjfjA1OixX3NCOdcR+LD/LAMw4/JIl+tl5rO0vg4JCuFhuhwHOioWcJUDOaFNQbjphZlQexTE9q28+JyAsJgeGMrEtcOQiDOAzBT7kvoILKtEA6j+rhfR+4O6GfwOaEzea8HjBhVtidTjncUlbppN7nCecpwM+fdyZ7J5S7NCmkVHmO5O70FpiDGS+q14D+X6pRF3TVToRKftwXR+A8MYDI+eLh9WfmldcMVI4XMp6s8Mm9LtXVESShFer4zJaGScp/mAQygagsXnXSE224DCgf849QxPrJJLYDXwodK/ipjaQcCOAiWgDkQBOXOXfUzHLGq3zK53Er8HMAQYckCUlwZ/V51XfGtC6UG6y3vtc7z+vj7l6cegeSRKkzY++0hEY3ksxuoPLKo9Ll7ofjeHM4dsVOY9I7bewHQXdmk57hVgFWZaXPejBPETsFhtSkdKd7huXJxA9Qi6GdjHU6YohsElj15/uAXFy0+sH57mxlAJWQK35jxBOiMkJ+EdPUKvCsEHdkt7d4xkXV58lhQbmq1CjKkKQIE5hzjkvYCFq/euOu0+I8ZQGNFfx3rhjcAbtkCYr+dvMrKlD/qkP2bdvBKcTpDrrL25Y4GlmkvMqcSs0y7YcGNF2w2o68=
+
+%URL%
+https://www.tug.org/texworks/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1593531961
+
+%PACKAGER%
+Jonas Witschel <diabonas@archlinux.org>
+
+%DEPENDS%
+hunspell
+libsynctex
+poppler-qt5
+qt5-base
+qt5-script
+libpoppler-qt5.so=1-64
+
+%OPTDEPENDS%
+gsfonts: correctly display PDF files without embedded fonts
+lua: Lua scripts support
+poppler-data: correctly display certain CJK documents
+python: Python scripts support
+texlive-core: typeset TeX documents
+
+%MAKEDEPENDS%
+cmake
+lua
+python
+qt5-tools
+
+%CHECKDEPENDS%
+gsfonts
+poppler-data
+xorg-server-xvfb
+

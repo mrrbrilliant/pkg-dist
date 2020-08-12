@@ -1,0 +1,77 @@
+%FILENAME%
+python-hypothesis-5.23.0-1-any.pkg.tar.zst
+
+%NAME%
+python-hypothesis
+
+%BASE%
+python-hypothesis
+
+%VERSION%
+5.23.0-1
+
+%DESC%
+Advanced Quickcheck style testing library for Python
+
+%CSIZE%
+410518
+
+%ISIZE%
+2228529
+
+%MD5SUM%
+6cea256b4f759866c36a6424c6a3a621
+
+%SHA256SUM%
+02e5f51c8841fdcdb14d3720132d3519b25e9391976b836236ec712070ed759e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAl8ehbMACgkQeGxj8zDXy5I4BBAAqO2iQlvYx2oeKYgl/X8qkxDODgSBqzGt92jFCnlcOnc58u5Dy735LAvmU8dEG0gWjdWegAKJ3px5ZQBEsfvohEG/B9mHfulEZJc1Yzw8bZ+dd2PX0PuOkjbv63DPgrNPOVYwU0mu1/kCtEaWYsdmDr93lnrYeulhwegpQvNoGROGULy0ab+nEVUzHWtb7qGzD7LWWELmPheme4v/ryBMkrLpaP03cG3YzEbLsWLjQJ1ws0/KSF7KeHRJfziBnd+AkPZRixuu73wrlHUu6AIVwRD/vVVvTgp0N9GDZNawvaeAVAJXfMzm+1eLe/wlHpMmZn0ju0guvmzhUSAJne3UYCerrFfGSgYMDep2nk+2+ZYZ9P/WH5TU2xhzKR8KzFmqg8TzGFi99y8LZej6PfDEOsfUoKHIWhdmSA1VBdvLXuhYsZy+kOZJ78EW9xAdqDZ03zzA1agGsO4EqcROmrwB398IuyStD3Mro4Y16GaEnTBtWD0gz4FC6dM8/0HuRhe3YbhAOboCyD0O3NJe2TSoFKSCPnuLF46ihgIgqP0mWO4pnwWkZroKov6s7RSPy0UU6Jh/ZgENb547GWA9FYzXNEM3nBVniDLpzdyODP+UrnbGDEcTyHTWYAItrXJ3+bGVcvq5WhgRu7hNtEYD37Q0UxuZAmg1Zy2L+t7mvFnaEzs=
+
+%URL%
+https://hypothesis.readthedocs.org
+
+%LICENSE%
+MPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595834668
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-attrs
+python-sortedcontainers
+
+%OPTDEPENDS%
+python-pytz: for datetime and django module
+python-faker: for fakefactory and django module
+python-django: for django module
+python-numpy: for numpy module
+python-pytest: for pytest module
+python-lark-parser: for lark module
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest-runner
+flake8
+python-pytz
+python-numpy
+python-faker
+python-flaky
+python-django
+python-mock
+python-pandas
+python-dpcontracts
+python-pytest-xdist
+python-lark-parser
+python-pexpect
+python-coverage
+python-typing_extensions
+

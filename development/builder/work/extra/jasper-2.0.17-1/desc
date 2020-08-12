@@ -1,0 +1,61 @@
+%FILENAME%
+jasper-2.0.17-1-x86_64.pkg.tar.zst
+
+%NAME%
+jasper
+
+%BASE%
+jasper
+
+%VERSION%
+2.0.17-1
+
+%DESC%
+Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
+
+%CSIZE%
+274253
+
+%ISIZE%
+1269935
+
+%MD5SUM%
+aa4ae0560209b9578837bbb71d36fb71
+
+%SHA256SUM%
+2c15379851f9b756f06bf036f1520daae63ff714c841cf97da96484ce78afad8
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAl8YoCAACgkQ/BtUfI2BcsiEAQ/+Jyjevc9HwKukctAgNFSL4cW6cSgxBlz6YpcjOr8ezyxVgd2mdbWhinpF3kUgq4uq/vVQqS+ZnKGz6k1yP21td4s1z++VA0Mvh9MVeky21nUWmd3znzBvQ9hDD/RY7ydvacObSGJC2x0qgK6FEYEkpMkuzIp8HbNnpKzG82sp4hcogRxW+W2LCd4Ha5A61u9zdKdY6A1XiX07wvUlV7aJgwYQFRrEgwxupElmf9qHo+fSGyxTsADBf3Ta/huQSmLCg3E7mrsTrePp/kS3zY2Ea+MZVTP2AnSxxSGIaG+CHskDMzG9MbSqme9ImEEAJMJFfCP/fH4R78ZeCKG6m4C64PeRU1perEbY7AXlKq08ChO1hoaZqW6rsXe4BgfAkhlbLTw/jRYX3ei71BlUElJzmlzUch9Q3ZU9jyhYNFNAv0lDzFskZ27dXQAxb7LLKbdfD6CM30+dwk9qvSvaBdhcTHU7h/naRtEdfDvbA/EcgPU6fp3rFTahqLi6w5prGcRW54XCVnj5MRZuP/FTfaInL34e9emi2EM8YkgXoJWpHY0G6VP/HPQ36pRdSnSy4ebyC/A8p+Po9v6N+ewdnq4R8lqey7JwVONnZfR+byE/yatGiAAjJA9cd67jjU2ZwPRWrMGyaihA28MVKGIEfhkYfieLQboHYbIzADX7gENWR6Q=
+
+%URL%
+https://www.ece.uvic.ca/~mdadams/jasper/
+
+%LICENSE%
+custom:JasPer2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595449169
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+libjpeg
+
+%OPTDEPENDS%
+jasper-doc: documentation
+freeglut: jiv support
+glu: jiv support
+
+%MAKEDEPENDS%
+libjpeg
+freeglut
+libxmu
+glu
+cmake
+doxygen
+

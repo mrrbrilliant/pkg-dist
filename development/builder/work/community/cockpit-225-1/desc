@@ -1,0 +1,83 @@
+%FILENAME%
+cockpit-225-1-x86_64.pkg.tar.zst
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+225-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+5364424
+
+%ISIZE%
+8639149
+
+%MD5SUM%
+ebf51aaac08dc34fb4eabb0191d02a93
+
+%SHA256SUM%
+46f625b1dec9547713325c877d75f6addcc2b4214cf4652cc5064ff864f817fc
+
+%PGPSIG%
+iF0EABECAB0WIQQsEYxiDwLbmsHQ+fqU3SOT2i7kIwUCXzED/AAKCRCU3SOT2i7kI8vSAJ0UiDM/I3hNsuLztDInoQnUmmR9xQCghfbhGIzy+Vy8hsWXA5/njyvctT4=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1597046891
+
+%PACKAGER%
+Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
+
+%DEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-dashboard: dashboard and support for connecting to remote hosts
+cockpit-docker: user interface for managing docker containers
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+udisks2: manage hard disks
+networkmanager: manage network connections
+packagekit: manage packages
+kubernetes: manage cluster
+
+%MAKEDEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+libgsystem
+xmlto
+npm
+pcp
+

@@ -1,0 +1,60 @@
+%FILENAME%
+plasma-vault-5.19.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-vault
+
+%BASE%
+plasma-vault
+
+%VERSION%
+5.19.4-1
+
+%DESC%
+Plasma applet and services for creating encrypted vaults
+
+%GROUPS%
+plasma
+
+%CSIZE%
+293678
+
+%ISIZE%
+1208624
+
+%MD5SUM%
+d4d705c267dd61fba6f9d0a338080e07
+
+%SHA256SUM%
+8765be377828d07469864b57a370e25cf9d998baeb39c9ce8aab3141315c8d07
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8gR34ACgkQek52CV2KUuTnxQgAp4GCmR0EFqp+YXQmZZy/cHZWObPRrropuM7GWXpCJj59TBIr7rbW9TtEFMw48u0/dWVg9ZSMKbVh7ECG5Jd3AYGBS7hYU8qqActVJcpIFgUEoby8qnjbIzltGC59kgAjY4zpXw4EANdIbi+MC3Dp+9CQxVILRJHA4s3mLBen7aRuwWqgy8JV7SCMXPA+BxOZsrXts/b+aBDGuCUuVxcmIbCeB2s95hKYQPlt0gEcJSQJlaP0goBf9Lzi64OYTA3yhvvx+9ftuq4Pxraq19gWkqj2cwna+KGZY9UQtgCQhwasFx1r3oFoXia+gYEWVI0XB0PBrSTD2CIf5HLuuJPVQA==
+
+%URL%
+https://www.kde.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595947995
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+plasma-workspace
+networkmanager-qt
+
+%OPTDEPENDS%
+encfs: to use encFS for encryption
+cryfs: to use cryFS for encryption
+gocryptfs: to use gocryptfs for encryption
+
+%MAKEDEPENDS%
+extra-cmake-modules
+

@@ -1,9 +1,9 @@
-/shared-library/target
-/package-builder/target
-/package-builder/work/*
-/package-builder/dist/*
-/package-manager/target
+/pi-library/target
+/pi-package-builder/target
+/pi-package-builder/work/*
+/pi-package-builder/dist/*
+/pi-package-manager/target
+/pi-package-repository/node_modules
+/pi-deriver-discover/target
+/pi-deriver-pacman/target
 /target
-/package-repository/node_modules
-/deriver-discover/target
-/deriver-pacman/target

@@ -1,0 +1,81 @@
+%FILENAME%
+python-pandas-1.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pandas
+
+%BASE%
+python-pandas
+
+%VERSION%
+1.1.0-1
+
+%DESC%
+High-performance, easy-to-use data structures and data analysis tools for Python
+
+%CSIZE%
+12599252
+
+%ISIZE%
+54945074
+
+%MD5SUM%
+57bc63984c7b354b186d5d84a788bb9f
+
+%SHA256SUM%
+f52dbe6728eb0359ed7f22953b95122bf04b95e383d9f02baea7b5895f4c5582
+
+%PGPSIG%
+iQEzBAABCAAdFiEEcXAmqdR3n8U5QHJmQPVXtzFJYQYFAl8wG6wACgkQQPVXtzFJYQYSKggAhNuJZLspYAFxb94JuDN4AY96kX2gOWODKNNgBdi9qtu8omNNC75tRnGMTxOWOZIX/1zFqCbJ6mtjx5bqKYNmuLpRBI2YsxTrflBfyypHh+y5CANg35GOf8SJaIPTZ2AQqb4/C9g6N++aXEb3cPI+J/NFmyYZssavJy8GPT9Lhewy2ZDlXEhNcPy1G8OZRuaLhvSNvAhzbomQthfAoPEnMwONTev6ViCc4V+pwBVTils+u6gqeWVZS555izQNcMF2fdLnHOogl9ed1mtUy1OHnVnqEBQzuErqePuN5F570XK7/kvkRhPL7uU0/t9M5xrFJVrZ4aPOMOaMf1HJ0obvdA==
+
+%URL%
+https://pandas.pydata.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596986973
+
+%PACKAGER%
+Andrzej Giniewicz <gginiu@gmail.com>
+
+%DEPENDS%
+python-numpy
+python-dateutil
+python-pytz
+python-setuptools
+
+%OPTDEPENDS%
+python-pandas-datareader: pandas.io.data replacement (recommended)
+python-numexpr: needed for accelerating certain numerical operations (recommended)
+python-bottleneck: needed for accelerating certain types of nan evaluations (recommended)
+python-beautifulsoup4: needed for read_html function
+python-jinja: needed for conditional HTML formatting
+python-pyqt5: needed for read_clipboard function (only one needed)
+python-pytables: needed for HDF5-based storage
+python-sqlalchemy: needed for SQL database support
+python-scipy: needed for miscellaneous statistical functions
+python-xlsxwriter: alternative Excel XLSX output
+python-blosc: for msgpack compression using blosc
+python-html5lib: needed for read_hmlt function (and/or python-lxml)
+python-lxml: needed for read_html function (and/or python-html5lib)
+python-matplotlib: needed for plotting
+python-openpyxl: needed for Excel XLSX input/output
+python-psycopg2: needed for PostgreSQL engine for sqlalchemy
+python-pymysql: needed for MySQL engine for sqlalchemy
+python-qtpy: needed for read_clipboard function (only one needed)
+python-tabulate: needed for printing in Markdown-friendly format
+python-fsspec: needed for handling files aside from local and HTTP
+xclip: needed for read_clipboard function (only one needed)
+python-xlrd: needed for Excel XLS input
+python-xlwt: needed for Excel XLS output
+xsel: needed for read_clipboard function (only one needed)
+zlib: needed for compression for msgpack
+
+%MAKEDEPENDS%
+cython
+

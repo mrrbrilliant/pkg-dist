@@ -1,0 +1,82 @@
+%FILENAME%
+gajim-1.2.1-1-any.pkg.tar.zst
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+1.2.1-1
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+6951166
+
+%ISIZE%
+19542533
+
+%MD5SUM%
+949585c4b40ccca81727bb66d0f18e09
+
+%SHA256SUM%
+3184e5025b73a3f0a4f8385d6eed7596544593529e5454dde36f6a5ce183210f
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAl8UiWcACgkQUeixSKmZnDRMAQgAkucY2E0i8DVUrecvKnySUaipjtu0yV7j61WMZBe/5tHiqg/y1eIPNBMXA9RvBApSgNSyjwrUiaydKLXcZrMqjPfj7WnnKAW8IJ2dnlY7FbbSIVLFUYB1XhCrbhYF+BfLlVawqxngfODPeggdxEWzzv7K8NElAHVH5IOr8Lzl0L5rWgG2+eNtXpNlnzknlG8O97vL+H3cYuyUm42N13gNPUmi9uB+vJdXTc/IHG9O8vazne71Pb+Utuv/3mL47EXMUXiJUw575O3S4EnGUd57Ziwq/LvurJOG8tdRc34J3s6Q2qPfdNZBrNRtji+NFKvpQkkm/xkLg3JaxOzHYms0IA==
+
+%URL%
+https://www.gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595181250
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+gtk3
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp
+python-pyasn1
+python-pyopenssl
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+
+%OPTDEPENDS%
+alsa-utils: play notification sounds
+python-dbus: for gajim-remote and zeroconf support
+avahi: serverless chatting with autodetected clients in a local network
+farstream: start audio and video chat
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gspell: for spell checking support
+notification-daemon: for desktop notifications
+geoclue: share current location
+gnome-keyring: store passwords encrypted in GNOME Keyring
+kded: store passwords encrypted in KSecretService
+gupnp-igd: request your router to forward port for file transfer
+libxss: measure idle time, in order to set auto status
+python-crypto: encrypting chat messages
+python-docutils: generate XHTML output from RST code
+python-gnupg: encrypting chat messages with OpenPGP
+python-pillow: support of WebP avatars
+python-axolotl: OMEMO support
+python-qrcode: generate QR codes for OMEMO keys
+

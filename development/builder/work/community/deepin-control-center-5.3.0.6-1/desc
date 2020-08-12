@@ -1,0 +1,87 @@
+%FILENAME%
+deepin-control-center-5.3.0.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+deepin-control-center
+
+%BASE%
+deepin-control-center
+
+%VERSION%
+5.3.0.6-1
+
+%DESC%
+New control center for linux deepin
+
+%GROUPS%
+deepin
+
+%CSIZE%
+8690177
+
+%ISIZE%
+25524377
+
+%MD5SUM%
+1ada3a4877b511d1216420c1fcc70758
+
+%SHA256SUM%
+0b7784d0bfa3edf67267f84faf34ae3c345f4ca0923e6081d74c50942afda753
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAl8xcqwACgkQeGxj8zDXy5KSDRAAkNHa2Lbc/YA9WIDSQS5u1D/zPP1TfCZQcxGC/LLk6aduMXu/ZjP273vsrGECD+MYKd6jcYn8mEdayqFWPUBoU6kJ7uuZAn9vaE14ZzFdV4cMpCw7UeWxa9TGKvCuJo562SscUgZo4vD068bWietENr7wBMaTwPaaZwW14TZBKrAwM5TOfnF6CTptPLVxqP4/htTWXSgGCHYOPvjHdQnqCsVd91W5NqKLmaBIekM11S4ekKPROwxaZD84Dkt4urbH/rU5ucX18DqJxczr1lxYDuTBM/oTLzw+hFs5FILFrTseOg78lT6yU8MdHZmDn3yVNyzcv18k0LtesrTqDgiRbZQhthrAgTc648gdMbvmO6zczVkhinrecQiH32JRhXceZLdG4nqhw+41OKmnEAJ3t13adpcZDC+JB94PAOiWsATKTfyeTvbDIk/NvSB3qCDH3xOaDP4hjFBnXODJorIMgULBh5//hoyqmVPS6Xtd5/tvQy1Se3Rm8BCMB7JT9xPmk62O1eoiun/rXGeZeVTV4SaC1Wc4EKFpelTTzTnFD/LDk9S4Nqx3qEZ5UA7geK2fuoOxQ3MXm+KMRWbN2SaqiLZvfkQpN51y72NZCwJGGIwJttOy5tBIET2o1M/t4CYYD46n2gOLg+SmhYB1fyWKeXwq2BNRtrC9HFymRzJ+55s=
+
+%URL%
+https://github.com/linuxdeepin/dde-control-center
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1597075933
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+dde-control-center
+dde-dock-applets
+
+%CONFLICTS%
+dde-control-center
+dde-dock-applets
+
+%DEPENDS%
+desktop-file-utils
+dtkwidget
+deepin-account-faces
+deepin-api
+geoip
+libpwquality
+geoip-database
+geoip-database-extra
+deepin-daemon
+startdde
+networkmanager-qt
+deepin-qt-dbus-factory
+deepin-qt5integration
+deepin-network-utils
+
+%OPTDEPENDS%
+redshift: automatic color temperature support
+networkmanager-openconnect: for OpenConnect support
+networkmanager-openvpn: for OpenVPN support
+networkmanager-pptp: for PPTP support
+networkmanager-strongswan: for StrongSwan support
+networkmanager-vpnc: for VPNC support
+network-manager-sstp: for SSTP support
+
+%MAKEDEPENDS%
+cmake
+deepin-dock
+ninja
+qt5-tools
+

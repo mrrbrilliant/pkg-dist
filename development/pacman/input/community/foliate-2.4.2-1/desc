@@ -1,0 +1,63 @@
+%FILENAME%
+foliate-2.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+foliate
+
+%BASE%
+foliate
+
+%VERSION%
+2.4.2-1
+
+%DESC%
+A simple and modern GTK eBook reader
+
+%CSIZE%
+868152
+
+%ISIZE%
+4517974
+
+%MD5SUM%
+036ab876ba9744b205c159556880b4e0
+
+%SHA256SUM%
+73fab6f8403a9d8bcaeb72fb53a08d65276eca432c3d4946b24a9048b14fca21
+
+%PGPSIG%
+iQIzBAABCAAdFiEEFpcExvtJDGiSx/I8N+CvH9pI83MFAl8Mi1UACgkQN+CvH9pI83OOxQ/+M4PCGq6aSgSCX890QEGxbnd7V02B5mboyCDqW6laNwkX8iOCe4RgsGiKDwv9RDuU7cHdv5fCxsKvjNODSg/RJCPZOtx+yRDtcXjK2zR53Hvs2bwayUXvx0naeZsKfynRgqfrtaGDnIuslsU7o4vP4pDQO9y61NZPZRsA/MoyoM0P0d+EZir+ramZlAJ9p8gJ72lEULXUMqprjhvbEs6WUwMWmVr8M0qDOYq9Ih824ctrRvbmvOTbLd6B1N+uYpVug+Ew8XA/CrbfNH76B8flB4OnjFv1VvtJjPtZ7S5Ocj8F2KGmfb8onFX5pCZACdXMN1TWp51y2TPpO5Xa0sR/mCA25slm7sOETjIg5DrckGTZD+D7TAyYN3T9jjMeQLAaMsM3jNUeo5QnUGH1KprHmsrNHJm3uE7+QztQtwU7YphxCuKHOY/8oLAwVCg19J07gpQi6TSCeoQhw+Luf7kuAkUKaTdApVFzIAP+1xnBHvppyEZj5hUKngBPc7kECabW7EtnfpEzQaJmRuw9+LeqxaLH+lETpzpVMiAVux187aUhzVM8L9sQXoTbmxsmxL/DC6Rv0f1py20TXnstsKZuL1ON/TGUJmGP4xbT2D950EGd5FJqrpmRKZAAQ6yiibqf1vhfeeQxMjz8TGdcdAhKUrItigEXHArZ5Gfd90LfF0Y=
+
+%URL%
+https://johnfactotum.github.io/foliate/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594657588
+
+%PACKAGER%
+Jerome Leclanche <jerome@leclan.ch>
+
+%DEPENDS%
+gjs
+iso-codes
+webkit2gtk
+
+%OPTDEPENDS%
+dictd: Offline dictionary support
+espeak-ng: Text-to-speech support; also voice package needed
+festival: Text-to-speech support; also voice package needed
+gspell: Spell-checking support
+hyphen: Auto-hyphenation support
+tracker
+
+%MAKEDEPENDS%
+meson
+ninja
+gettext
+

@@ -1,0 +1,70 @@
+%FILENAME%
+lv2-1.18.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+lv2
+
+%BASE%
+lv2
+
+%VERSION%
+1.18.0-1
+
+%DESC%
+Plugin standard for audio systems
+
+%CSIZE%
+393706
+
+%ISIZE%
+3352019
+
+%MD5SUM%
+ec22fc096b60cf2d4de2bbb82ae395e1
+
+%SHA256SUM%
+a374ffa3ef067134993095ca9bef410a00dfab85dea28579d58b4d472c1835e3
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXqWvbQAKCRByWHNLQcMVSS10AP9woGB5LdH8acK5TDDbr0PcJYLqvKdSgQlZmGFLHZO2OAEAztn1ikJdvKhKe20c7mAYVfIn27R/9rseM/F8L/EwZAA=
+
+%URL%
+http://lv2plug.in/
+
+%LICENSE%
+ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1587915521
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%OPTDEPENDS%
+sord: for lv2_validate
+libsndfile: for eg-sampler.lv2
+atk: for eg-sampler.lv2 and eg-scope.lv2
+cairo: for eg-sampler.lv2 and eg-scope.lv2
+fontconfig: for eg-sampler.lv2 and eg-scope.lv2
+freetype2: for eg-sampler.lv2 and eg-scope.lv2
+glib2: for eg-sampler.lv2 and eg-scope.lv2
+gtk2: for eg-sampler.lv2 and eg-scope.lv2
+harfbuzz: for eg-sampler.lv2 and eg-scope.lv2
+pango: for eg-sampler.lv2 and eg-scope.lv2
+python-pygments: for lv2specgen.py
+python-rdflib: for lv2specgen.py
+
+%MAKEDEPENDS%
+asciidoc
+doxygen
+gtk2
+libsndfile
+pygmentize
+python-markdown
+python-pygments
+python-rdflib
+waf
+

@@ -1,0 +1,94 @@
+%FILENAME%
+krita-4.3.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+krita
+
+%BASE%
+krita
+
+%VERSION%
+4.3.0-2
+
+%DESC%
+Edit and paint images
+
+%CSIZE%
+68108677
+
+%ISIZE%
+190499513
+
+%MD5SUM%
+0821e61d32fa7ce8d7ab21e560fff994
+
+%SHA256SUM%
+90e07c17aa37af069ab9de86fe87d5354b9f04f06955fb917ed8c6d77c3cb93c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8ZwEYACgkQek52CV2KUuRkngf+IZ+JStUnZIWD4vaa/Cn8BOzTElCfNcRktliOri+wNoRBivL64/qCOBczWcPfJEO7bYfuQQqeArs4RtFgIb3eDF+re+MMdN9xhYX62kPxNeOE0RvGemhvFTBqxbU1VvZ3Eb1v8O6e3j15FCLJwW3Jlz7mXaQmaUm3tTG/9YvrHU7/7j86Dr+6fsHKTt5ayeZH1VU6+tWNIeYxlNd1NuEDS1GzpHhpsikTQW2hoeUTZEugwneRCxghbK7KPAL6tw6DTjoOBcEoGRDuo/pRS+G/0jbIM2Ef+zxYFdDtSJYKfmWGEnuPiuSm6levmaS2CSD8sE3MP6b3fHRrXriY7V0kqQ==
+
+%URL%
+https://krita.org
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595522525
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+calligra-krita
+krita-l10n
+
+%CONFLICTS%
+calligra-krita
+krita-l10n
+
+%DEPENDS%
+kitemviews
+kitemmodels
+ki18n
+kcompletion
+kguiaddons
+kcrash
+qt5-svg
+qt5-multimedia
+quazip
+gsl
+libraw
+exiv2
+openexr
+fftw
+boost-libs
+giflib
+openjpeg2
+hicolor-icon-theme
+
+%OPTDEPENDS%
+poppler-qt5: PDF filter
+ffmpeg: to save animations
+opencolorio: for the LUT docker
+krita-plugin-gmic: G'MIC plugin
+python-pyqt5: for the Python plugins
+libheif: HEIF filter
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+boost
+eigen
+vc
+poppler-qt5
+opencolorio
+python-pyqt5
+libheif
+qt5-tools
+sip5
+

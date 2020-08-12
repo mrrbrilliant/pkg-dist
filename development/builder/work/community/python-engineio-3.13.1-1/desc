@@ -1,0 +1,76 @@
+%FILENAME%
+python-engineio-3.13.1-1-any.pkg.tar.zst
+
+%NAME%
+python-engineio
+
+%BASE%
+python-engineio
+
+%VERSION%
+3.13.1-1
+
+%DESC%
+Python implementation of the Engine.IO realtime server
+
+%CSIZE%
+89278
+
+%ISIZE%
+486379
+
+%MD5SUM%
+bda380409cb58db8c5a875e8154470c5
+
+%SHA256SUM%
+a614cd656f0d6702d398b77275f8d6384f73c2129ceb9a488a95e581fd3c6e04
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAl8YkJwACgkQ/BtUfI2BcsjesBAAmdsQETm2qjPPzRqIEKot85YgnqqMZCxKu4HFOvwnecYdzsyW7Y/vP/fcjgHB3OwdIs907hGFyZILim8PvuXWmum0CJ0EGr4LDR7SIfrjoU9X5kgndZ6RnTwxwBIpo/iqiGIavoPkTM95cNigxiFbV4706qOHUZG03wxXpF2i0gGjI0IFdAVnXMjw8gfZzwatWtf3ZAamGRgGq/kOjgLee68GNPuwY60xCFbbhP+c9XeDGye4D7sA/irV2sVTLQd/OLGxlLbSaIlXqclKivJwA9QUS+nU5BnxP6NQouHkqc1Z+y44MkNH1GSoClfWF8Fs5CsdYcTcIr2bxf1uWHemlBg1mcz5dfgiKpSVIvmTRNd4Bh4ajeHlL4t7EBLcAjRIxiutxkAr5HhqncQaonKoyLu0WlZzrUPZCD/tdxo6XQOHt1ihS6SrrU0SWGCkslQHp/bsexBdMe9NHNzfEeN4zYW2kBuI41msoDn2hk9u782O9oOT6k9Yk/l2IFjq5olpXV1dAEwhgofLkf3Vg9LItIA53BFRO1N+KpjPi3f60niNIlqLSym6Re53KbUCabi3yJ5Kh2dPQfmnRK+Me3e1bAMYWEpvcQMNdwxk5kI6GcSaCGTO4amIC0jMkXvDtUVy60OFC4w0CARiZ7bLgusQXpkajPG9USmCopb6pvU/ZFo=
+
+%URL%
+https://github.com/miguelgrinberg/python-engineio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595445325
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+python-six
+python-urllib3
+python-websocket-client
+python-websockets
+
+%OPTDEPENDS%
+python-eventlet: eventlet driver
+python-aiohttp: aiohttp driver
+python-tornado: tornado driver
+python-gevent: gevent driver
+python-gevent-websocket: gevent driver
+
+%MAKEDEPENDS%
+python-setuptools
+python-sphinx
+python-six
+python-eventlet
+python-aiohttp
+python-tornado
+python-urllib3
+python-websocket-client
+python-gevent
+python-gevent-websocket
+python-websockets
+
+%CHECKDEPENDS%
+python-mock
+python-pytest
+python-pytest-runner
+

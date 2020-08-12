@@ -1,0 +1,103 @@
+%FILENAME%
+qmmp-1.4.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+qmmp
+
+%BASE%
+qmmp
+
+%VERSION%
+1.4.1-1
+
+%DESC%
+Qt5 based audio-player
+
+%CSIZE%
+2140839
+
+%ISIZE%
+10392430
+
+%MD5SUM%
+49789d1c6b322fcf2deb52d0c2689237
+
+%SHA256SUM%
+8e2c5aca1aeb6116fcac510cf8ce250033291df36ee7e2be61ab24f657d2d76b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAl8j2IEACgkQeGxj8zDXy5KN6Q/+LlrKxKmTaUnATNGe1kn0ezIKq0ILlD6ddlFNoMQRN1qEB2be78SXuLoGGwbPekKc6prart47dysufmInqPnkljoC8dysA+iyHp4MejMSFC2UV6YwZkvpQ7iwsnDL+cu266DL6iVM/WsSMsg7sKs1eK3miShLB54u6b3vyQCCNjlAhyQuOZ8pY5zHP7EvVyhKUgXZxF4atY+SosK2dAHb1b0svSsVyNWYqqOpbwA/kdk6fdJ7RqYXeErqGeCBwc/PSw8r0lbog1b4HlvnlhB5hcNE4ykm0WXP4kPmNoDknka4cBlg1X98NhAHaNwCp2kp+tOj82blise0jY3nZZV9Ur+g2eD2lxqVwwsYYknxRQeBlsEOqsRadcEm/1n4U1mw+potZCardmgAblCYs0JNGZkIub/u1yxLOwldtf1H0bqThhOwlDKe3TPBaW932E7UuZ4WGvBGvR0N93VxFVaZlxCSKAFGYfNKguqYQbfhPLbcEUsr1iLvHVxjIcOyZwtK4QPCKOXkEBDvfzxrmw3NRPqsVdv1UFfOV8sVVD9O17Ez7F3XhQC24l7x8Vs2gU2LcFs4dXu0hzTC6LGzCIj8Pzbk9D8UiPRGYbdAKP6AORpNJQPd3sH+Xe82SHvlQFFzP1XVuAzIqKnfhtsWvQbbOXyhMrT1QtIS6pYje2kZPwg=
+
+%URL%
+http://qmmp.ylsoftware.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596184389
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+curl
+desktop-file-utils
+hicolor-icon-theme
+libmad
+libvorbis
+libogg
+libxkbcommon-x11
+taglib
+xdg-utils
+qt5-x11extras
+
+%OPTDEPENDS%
+flac: native FLAC support
+jack: JACK sound output
+libmpcdec: Musepack support
+pulseaudio: PulseAudio output
+libcdio-paranoia: Compact Disc input and control support
+libcddb: CDDB server support
+libmms: MMS stream protocol support
+libmodplug: MOD playing library
+libsndfile: sampled sound support
+projectm: visual efects
+faad2: ADTS AAC support
+libgme: support for chiptunes from various platforms
+libsidplayfp: C64 music support
+opusfile: Opus support
+wildmidi: MIDI support
+ffmpeg
+libsamplerate
+wavpack
+mpg123
+
+%MAKEDEPENDS%
+cmake
+flac
+jack
+libmpcdec
+pulseaudio
+ffmpeg
+libcdio-paranoia
+libcddb
+libmms
+libsamplerate
+libmodplug
+libsndfile
+wavpack
+mpg123
+projectm
+mesa
+faad2
+libgme
+libsidplayfp
+opusfile
+wildmidi
+qt5-tools
+

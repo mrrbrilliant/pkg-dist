@@ -1,0 +1,67 @@
+%FILENAME%
+strawberry-0.6.13-1-x86_64.pkg.tar.zst
+
+%NAME%
+strawberry
+
+%BASE%
+strawberry
+
+%VERSION%
+0.6.13-1
+
+%DESC%
+A music player aimed at audio enthusiasts and music collectors
+
+%CSIZE%
+4885194
+
+%ISIZE%
+11218670
+
+%MD5SUM%
+7df8050537836cecd61880f2011591db
+
+%SHA256SUM%
+7c88057c1013a12194e2c3ef296a2d0a09872b4fe8e5afab908d56c843a253f8
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8NWBgACgkQek52CV2KUuR7Mwf/WW6n2Y8ApqrCgeT9SC2WjSBSF6Ppca/itzlKHrF6+VNApmC973WPJ1iMHJl36vaGhk0tFIE8IJLMQZkPqDd6E1YcPPsfPlQux0+gozWhZDD4owARo9XusiuS7W159cM9P7LsNkI5/IfpxnkXWVvHc2GKARIUt2qcXJOCJEVyOQevIwlhwqdx32yBU5L3hWulZlwc6d8QJej/oDZ/DcagfYPQERDlMH2DJZKPtum50rEviT9ltDOazpdnyjh/+CUX14NQqLXsViU0z60DOsmUAEwxREUidWI9GNoGLmN4i9m0Vv6ql6h7AqDCNn21qXgZr25IC2h4RQ3ZA+kXzJ8a7g==
+
+%URL%
+https://www.strawbs.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594709901
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+chromaprint
+protobuf
+gst-plugins-base
+gst-plugins-good
+qt5-x11extras
+udisks2
+libcdio
+libgpod
+libmtp
+fftw
+
+%OPTDEPENDS%
+gst-libav: additional codecs
+gst-plugins-bad: additional codecs
+gst-plugins-ugly: additional codecs
+
+%MAKEDEPENDS%
+cmake
+boost
+qt5-tools
+

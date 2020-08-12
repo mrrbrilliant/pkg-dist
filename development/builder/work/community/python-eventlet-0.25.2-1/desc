@@ -1,0 +1,70 @@
+%FILENAME%
+python-eventlet-0.25.2-1-any.pkg.tar.zst
+
+%NAME%
+python-eventlet
+
+%BASE%
+python-eventlet
+
+%VERSION%
+0.25.2-1
+
+%DESC%
+Highly concurrent networking library
+
+%CSIZE%
+384833
+
+%ISIZE%
+1960646
+
+%MD5SUM%
+38cdb7e8e9575643f00627141ce53956
+
+%SHA256SUM%
+4a7baf0b3484640bd583f1e18e1c43711149e4a08f9355c70377eadb99930abe
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAl8Yqa0ACgkQ/BtUfI2Bcsiirw//QR4Khff49cfWapyaelGf/hBrifpWV4nj09xWFoVKd4zFfJdm6eQfaQ4sUDGjaK6wW5kMzsyNGXclPLvyEGkvwtitzoqN4oVczCUBKElqfRdt+QHC1Sk35zpkpLsMjMv3t5cDzlzG4/gAn4Wi5O63QQ6ibyqINpu5qVz/Dzz4svM5qYvwVQnFDM4gIwS61bI8xCa1P0omg1HDYr2UDcdLAakRVcU5eXeuWBAfvYn5mtr3LZ5gplXng8qKfFZmVFaI1u4lZtO5AP5v0Y6pZl+k6a931I6c0z2MmkSxjRqwSBFaDDui8u2GU+WvIH/zZqqwojDivi5EeZSmF50PZ31n2lNwfa0GKAMhU2jXwRph3o+IJ1o/R/Leg+H3FZ9ccuOIpkh9bIdCVds8muRPghBncADDYmGICABeW44kUrKu3mP7Na0NpKrOzm0b1j/Y61+LI5X1l7+gC0PGj2GR3H6VmnpeSvyIQbXwtOx4D1qGVWlkYCxfXI7sNgLQzVEKha+UQOuDH9EDo2AmMgJh9voFOWZ4vr55plNWklA7/96M/pIXyI+uRzekOQg5YqBwImvz8deoDuGRwrtrxWKtnhaxBGM6hVVCZsKile3S3bwX2ThpqZ8eHK8xt+oTVlSaA4XD+4h57gegxzmo3yuLzfc3xMqT1+AaAJS7/p/ZPxuNdhg=
+
+%URL%
+https://eventlet.net
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595451731
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+python
+python-greenlet
+python-monotonic
+python-dnspython
+
+%OPTDEPENDS%
+python-psycopg2: non-blocking PostgreSQL support
+python-pyopenssl: non-blocking SSL support
+python-httplib2: non-blocking HTTP support
+python-pyzmq: non-blocking ZeroMQ support
+python-dnspython: non-blocking DNS support
+
+%MAKEDEPENDS%
+python-setuptools
+python-sphinx
+
+%CHECKDEPENDS%
+python-psycopg2
+python-nose
+python-pyopenssl
+python-httplib2
+python-mock
+python-pyzmq
+

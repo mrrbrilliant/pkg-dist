@@ -1,0 +1,63 @@
+%FILENAME%
+openssh-8.3p1-3-x86_64.pkg.tar.zst
+
+%NAME%
+openssh
+
+%BASE%
+openssh
+
+%VERSION%
+8.3p1-3
+
+%DESC%
+Premier connectivity tool for remote login with the SSH protocol
+
+%CSIZE%
+913277
+
+%ISIZE%
+5492567
+
+%MD5SUM%
+03da5c4f647472f1f399c20c52392518
+
+%SHA256SUM%
+a6adf32e8266820b1243a2f0e7d5d16c2aaa8768f9e53c542b256067dea7450b
+
+%PGPSIG%
+iHUEABYIAB0WIQQaYNxEJF0G/vkGI9bu7uLu7i7u7gUCXxC3PgAKCRDu7uLu7i7u7lh1AP9ZgfKUk4dzoyJADD9ON7wW1JeFLBjWnbkBH79r9nxkJwD/U3pAZh0/IO868btgb2WfYkthrDtIL0aQuBmNU1KB9Ao=
+
+%URL%
+https://www.openssh.com/portable.html
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594930619
+
+%PACKAGER%
+Gaetan Bisson <bisson@archlinux.org>
+
+%DEPENDS%
+krb5
+openssl
+libedit
+ldns
+
+%OPTDEPENDS%
+xorg-xauth: X11 forwarding
+x11-ssh-askpass: input passphrase in X
+libfido2: FIDO/U2F support
+
+%MAKEDEPENDS%
+linux-headers
+libfido2
+
+%CHECKDEPENDS%
+inetutils
+

@@ -1,0 +1,69 @@
+%FILENAME%
+netdata-1.23.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+1.23.2-2
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+2131520
+
+%ISIZE%
+8551409
+
+%MD5SUM%
+3c0a1a495a5a334161ff3ebd8edd2967
+
+%SHA256SUM%
+92e632777a2db4c2a7b611e36fcc921776f37c02c16f7d563aa0f1a427296eed
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAl8eIUEACgkQOeS4d+YuuRU/KA//QA2DPcYmNkXDrtecXzYreR6VexpINWPZK38n4uu9QAFtyVXBwEIhSlTsx+fAsPi99tkuFLKol3t9k6LgW5T38s6Sm2USAxci8yz1sd8VJ/kd6DMVHeLkBgL4GTMhJuhxu1Qiwn08gtSCrCnap+QA9e8jwWBMdDg15eFa7ifeSrcuUnb7QK3VfMoBAXIpZfG6YUOSMFWjd4s6MKIFLYB1bJqmQFjA/FjfkwXHdZ3L8KZRiJGsEPe+nD/TO0zTqWRIcMuef2HEShGehEhEHwKWUSR3ETr1qKYAYQnzqRDyionEpNKDxMSvt4FBhgkNVg9jGhRfVgDKz0vlS0nAPUDjRUb18xBxDb6xb7Uh79fliJY3RXK5CzOZA65/sp8khkF7vVYxuKHVtLY6yu/JqFaJ9Lc1UgcNlmXihNucxPC/CyjBziA/NY7jLT5YSXcqLg5Wm7CJ+dMwMqL1ttfOvv8DjV467njbN+EybIh5iMCa+mN0zLC58FlmXBt8CSjXpSRWcrQe/fxX7+m7ciHZwlPlebyAwNO+kL+aHT3Qk40KkhBHVi/PVko2nhPJskLfnGnxRZQdjhzJDy08q5ylsmKs6xnu77UC/6S9gG/6HfLuSkQcf4Rqww7NYe7U+jtxvuc5Hoy8RyEa1hJKnPymqGgOiTE8kHtapV+KjmwGxGzhZx0=
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595810012
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@gmail.com>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+apcupsd: for monitoring APC UPS
+iw: for monitoring Linux as access point
+

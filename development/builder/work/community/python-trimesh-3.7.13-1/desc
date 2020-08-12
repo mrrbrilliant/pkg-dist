@@ -1,0 +1,64 @@
+%FILENAME%
+python-trimesh-3.7.13-1-any.pkg.tar.zst
+
+%NAME%
+python-trimesh
+
+%BASE%
+python-trimesh
+
+%VERSION%
+3.7.13-1
+
+%DESC%
+Trimesh is a pure Python library for loading and using triangular meshes with an emphasis on watertight surfaces
+
+%CSIZE%
+814991
+
+%ISIZE%
+3844419
+
+%MD5SUM%
+70df47563c5258ba4b636289ad5c906b
+
+%SHA256SUM%
+71d89016ac3927a47b53c3b7b86433144fc7121673c597c5bcb52d24cae5b631
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAl8d0v4ACgkQwGCGM3xQdz6Hugf/a6tCrRCnYJd3S4DiudoWIz2pszIVogObLnVDFba5iWBAoNR5HQU9+rO3wIAe2m0jERAbYpK/AvWE6pixtT1jyekiFuUv4Md5fqu5a4t1ajssc1cbwfZUm+9YySnkAOMLs0iTexNeJwWopYURmTuiKm/7wv+EC3Qv4AuXpCwJ+drFiy/k4tCExDM+duKAIv1HbXC+DVxlYEUIRaL40t66/2Czi7TbhgQ32xNOgS8f2LHmu9q0IG1J46YzDKsiiP8Gdlbf5+TiB80is9TY8P5krUFPyjPs1bUerSPSPnEDcwGoK/LK5VH0Ct3IldjKyne3XSQIA8BSh/aWQItNcMmLVQ==
+
+%URL%
+https://github.com/mikedh/trimesh
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595790008
+
+%PACKAGER%
+Jelle van der Waa <jelle@vdwaa.nl>
+
+%DEPENDS%
+python
+python-setuptools
+python-numpy
+
+%OPTDEPENDS%
+python-networkx: graph operations
+python-pyglet: preview windows
+python-rtree: vector path handling
+python-scipy: convex hulls
+python-shapely: vector path handling
+python-pillow: load images
+python-jsonschema: validate JSON schemas like GLTF
+python-requests: network requests
+python-msgpack: serialize into msgpack
+python-lxml: handle XML better and faster than built- in XML
+python-sympy: do analytical math
+python-xxhash: hash ndarrays faster than built-in MD5/CRC
+

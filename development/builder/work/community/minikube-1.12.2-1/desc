@@ -1,0 +1,57 @@
+%FILENAME%
+minikube-1.12.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+minikube
+
+%BASE%
+minikube
+
+%VERSION%
+1.12.2-1
+
+%DESC%
+A tool that makes it easy to run Kubernetes locally
+
+%CSIZE%
+12344271
+
+%ISIZE%
+53801831
+
+%MD5SUM%
+3785e4ea18bc11adf78d6616ec88575e
+
+%SHA256SUM%
+edaf6b147496c998ba1deeef114fc39902c14c6df5a1acdd398611ad0cdadb40
+
+%PGPSIG%
+iQIzBAABCgAdFiEEba97gI+d8lE5YgAA0hRh49/iBg0FAl8rFpsACgkQ0hRh49/iBg2/4A/+N8H5o1d1dm/ztfx+R3PtV/QShURoesuZ5oEITctG/Ptx/zd3HTgjA858PgBtT+L4TnX7VMKBE3SRr6eMW2jIejAyRGdEnFLsfU8SGotM9fN6qtYDcMtUK3LWxJ+Erw0sDyxh9+1VxDxJeeQyciLbQWKyfl9FEtoD/1VVPo2EBQLHqDd6vpoiIrKRLyQxw05LJa4vNEznGsMgXDvDOOE3bIG0YgNiYd/UWmmnUP+RU3yVB8GckcTbmJLJNCO1q9qUzSgaFa6OY2OjINaehcpHx8WwSAiUoXfTq1ViAz9j96Ls35qUfSbAejvzm1Y9ctkYhlWsQrn2bcp/RYcUAD6FBPI7bM5zldgyX/0ft/Ss/sSq8FFSekqiEPiYPCMKNrfpLJgvp08R+/42NMQeXlxPmLeERcq8ZqaJbAjDcGC6gvbNVKuzIhqUdiZQoUJFMLow/DJYRlI6Zwfs42gzy5/z6lX13asBeegNV0Te0oRhYkoVMRsTtBQxjnA7BXN3hj2gdiSKLlYK9+3j14iDBPtLqywIzL0qbx/rNrD2jG3mHA4TbjAOXipWg2D94MfhDXh3AQIZ68IgjLWv/5a9Ai6rXBtww7WurIUcMyBk5JkOscpFmU/3AKJxVJhTNtFIsH8Tjd0E5puYOSO9NC2Tgair9+qHE725mOmUv0XER1ZpRoE=
+
+%URL%
+https://github.com/kubernetes/minikube
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596659206
+
+%PACKAGER%
+Christian Rebischke <Chris.Rebischke@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+kubectl: to manage the cluster
+virtualbox: to use --vm-driver=virtualbox
+
+%MAKEDEPENDS%
+git
+go
+go-bindata
+

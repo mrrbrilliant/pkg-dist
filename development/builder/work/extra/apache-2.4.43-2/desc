@@ -1,0 +1,77 @@
+%FILENAME%
+apache-2.4.43-2-x86_64.pkg.tar.zst
+
+%NAME%
+apache
+
+%BASE%
+apache
+
+%VERSION%
+2.4.43-2
+
+%DESC%
+A high performance Unix-based HTTP server
+
+%CSIZE%
+1731367
+
+%ISIZE%
+6584978
+
+%MD5SUM%
+6d60ce52a050a41ff818ab14a44b12c8
+
+%SHA256SUM%
+5c513c4fcd36cb04f801b53b066a67d6d7a16f99ae0a30e76c8d415ebf312161
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAl773zYACgkQsChU7XU+Dx/fKA//TB4Q9qJaQ10FCVrWC6D7SRLtdldRViQDvm7cBbbzAuuU+o+mv+45GZlt+Js8vdvfgtWw0E6ARUZwfThApCBLIcVkPjXfY6wd+VCCJFyiYo4WPK0KQLv7GimkBXGLAVhEx92wCepTawZbJ5WHrNhFQFNszsMjOJJ/B7h/URLaSMjSAIn3uYpGxRkp/8WoAr7+aUFiAD6C8eNnWhL8XGadf0ktQgrtiMftrtHCIMS8tezjQbzZl/5WYvskGir9EpPxffhp83a+RSvdHqGwFY1/LmaEzyIz5KGPcotYY14GcuWNzRgOtuIOB5W0+PB/dK0bOw0T/scSI2i9xqloaRrVBIA3iatIX0oGCvBXkV+sgJkJ66A/YR1Eocz0x0YvGb197e4biS39ZgoFuID7TZd733PzoANniF1x9e/guRJ0AUO8TWuKI73x7g2CL2G+67gq1J6qyvF/RlDqdRG+YarnYM9oNMtcGdoankArQGIisfRPeUNdvtzDb/CfKztmrsRM/UJrLDJtzTYRisNx8UQCg5ret3t70zqRdyiZUOQ2Wnb4L17qyyU4L+0ptIGnS0gMF6uja2ATR5c3UAAr3nmhAVg7u//XRpfW92S5wBSxiqHwXgP6v0YhXq5mud6sS+/g/Sw4sr19u3+xT+/DTLwbxGJhYeQjoU5MjbeMAH3x+5s=
+
+%URL%
+https://www.apache.org/dist/httpd
+
+%LICENSE%
+APACHE
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1593564858
+
+%PACKAGER%
+Anatol Pomozov <anatol.pomozov@gmail.com>
+
+%REPLACES%
+mod_proxy_uwsgi
+
+%CONFLICTS%
+mod_proxy_uwsgi
+
+%PROVIDES%
+mod_proxy_uwsgi
+
+%DEPENDS%
+zlib
+apr-util
+pcre
+libnghttp2
+openssl
+
+%OPTDEPENDS%
+lua53: for mod_lua module
+libxml2: for mod_proxy_html, mod_xml2enc modules
+curl: for mod_md module
+jansson: for mod_md module
+brotli: for mod_brotli module
+uwsgi: for mod_proxy_uwsgi module
+lynx: apachectl status
+
+%MAKEDEPENDS%
+libxml2
+lua53
+curl
+brotli
+jansson
+

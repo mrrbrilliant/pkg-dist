@@ -1,0 +1,54 @@
+%FILENAME%
+vicious-2.4.1-2-any.pkg.tar.zst
+
+%NAME%
+vicious
+
+%BASE%
+vicious
+
+%VERSION%
+2.4.1-2
+
+%DESC%
+Widgets for the Awesome window manager
+
+%CSIZE%
+48397
+
+%ISIZE%
+221252
+
+%MD5SUM%
+58f508436248595e1df3577fa8801b35
+
+%SHA256SUM%
+865b9f038d1fdd85568fac42cf08c4542bb5c093dcd99d2eee9e1bc8a21e3c52
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAl8sVMMACgkQsChU7XU+Dx87Mg//YWaugE1jb+GcUyV804G2nVcVSa8y6Gms6D5GaRVslJY+s/2B4AhoktMNiJCtkiD+YDlNMCu+hLpBPwve9t6fYVLgKhTiQIRw3ewDC3Tc8D75BRMM5c+BEjVoUWIGan4yuMIV2hGbf/pDWRHBAp5qmehHwcJab+jnD0JvosDsD5J5PS6GyY58pqzzWxi+5t34MsXP0yaxKrcjItX/XDdzLVPpBiBaKD0cOGGzSizaXdJwciRyKkHa0HuSGS6sCMRoZFpnAurtoWBOo6aJLj0tLjMsy9VmP7slrImILpYnqYF8l4JZghkV79oVzxAFJJVfjbhilp+po+loDQa2j5taGNYl14+WyZMzoDlMLIHae7m3ConWjkgsLx/a9fYM5pEdiez7RjA6/GlGPehSPyO74MkrdlJfwOXTrlmt6Fi+4QH2owMQFMsSyla6VoIjuYNpZIdJSWnrn1kYe8fEFz2d0jxV7CbdQ09IaXV8Nq4XpdRbH5I2mbzoaBwvOsglWUt2SR7vDBievUEDac5cbA50a6SQ/DRGGgumfte6sNPaZAfubDBHvisG3/uULwXlBoVkcIkA4IP+MwfCkc+RgDViamqnmyWwAnXbsm+8ttAXPQ8SszWzIJI+BwlTvtt+S4YbC7TWTFJDRQIMOwDCUWnoo6CiZq9aPkyBXYce05GQf6Y=
+
+%URL%
+https://github.com/Mic92/vicious
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1596740528
+
+%PACKAGER%
+Anatol Pomozov <anatol.pomozov@gmail.com>
+
+%DEPENDS%
+lua53
+
+%OPTDEPENDS%
+hddtemp: for the HDD Temp widget type
+alsa-utils: for the Volume widget type
+wireless_tools: for the Wireless widget type
+curl: for widget types accessing network resources
+

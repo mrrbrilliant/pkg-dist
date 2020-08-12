@@ -1,0 +1,106 @@
+%FILENAME%
+avidemux-cli-2.7.6-2-x86_64.pkg.tar.zst
+
+%NAME%
+avidemux-cli
+
+%BASE%
+avidemux
+
+%VERSION%
+2.7.6-2
+
+%DESC%
+Graphical tool to edit video (filter/re-encode/split)
+
+%CSIZE%
+6589551
+
+%ISIZE%
+19586826
+
+%MD5SUM%
+281abb67867aaef274f751c7c677c773
+
+%SHA256SUM%
+1074f93c7fd7706c7d59cc6d2c9da08baee1cabf35554f55442d64918a7d866f
+
+%PGPSIG%
+iQEzBAABCAAdFiEElDfdOBWnqRaePTlGr/XZUJi8b/UFAl8pdDkACgkQr/XZUJi8b/V2qAf+Iii/T9zmfm78HiL1qZWD3KC8GqAZXUF2Au0b5H1pUM8Xe+KGlPwOM364OLhsPs2s8Ev3abuiWL2/VuKC5RvprrIDK0ywuZbmAm+smY5z3Iwtvz0/eovzlHkVJXzsNdUzT9RS5jmO2W4NYkK3hrx5tWtSFRlp/d9Q5XG6TzwuSXn2QfeyWZ0xjjwjk+n8rqy1p6CzLm0qfPk8BCIBFnMDG47kpJXVBvj1+jF1xpUVgAnJldwE5nddhyZE6Ekj/l1ud2/kuyE9DoeE/n8IS3b58jPh9/wCA9y8HAdAKUbHAG5GbDlEIeeVCmPGVuJbSTGUvRcSzWzyfYy8WbEKwb8Gig==
+
+%URL%
+http://fixounet.free.fr/avidemux/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596551764
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+libxml2
+fontconfig
+sqlite
+libvpx
+libva
+libvdpau
+
+%OPTDEPENDS%
+lame: for the corresponding audio encoder plugin
+faac: for the corresponding audio encoder plugin
+faad2: for the corresponding audio decoder plugin
+opus: for the corresponding audio decoder plugin
+opencore-amr: for the corresponding audio decoder plugin
+jack: for the corresponding audio device plugin
+libpulse: for the corresponding audio device plugin
+x264: for the corresponding video encoder plugin
+libx264: for the corresponding video encoder plugin
+x265: for the corresponding video encoder plugin
+xvidcore: for the corresponding video encoder plugin
+qt5-base: for the QtScript scripting support
+libdca: for the corresponding audio decoder plugin
+libfdk-aac: for the corresponding audio decoder plugin
+twolame: for the corresponding audio decoder plugin
+libass: for the corresponding video filter plugin
+fribidi: for the corresponding video filter plugin
+
+%MAKEDEPENDS%
+cmake
+libxslt
+qt5-base
+jack
+libvorbis
+libxv
+opus
+desktop-file-utils
+alsa-lib
+lame
+xvidcore
+faad2
+faac
+x264
+x265
+libsamplerate
+opencore-amr
+yasm
+mesa
+libvpx
+libpulse
+libva
+intltool
+sqlite
+libvdpau
+libdca
+fribidi
+glu
+qt5-tools
+twolame
+libfdk-aac
+libass
+

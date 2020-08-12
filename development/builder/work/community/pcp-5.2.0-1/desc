@@ -1,0 +1,63 @@
+%FILENAME%
+pcp-5.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+pcp
+
+%BASE%
+pcp
+
+%VERSION%
+5.2.0-1
+
+%DESC%
+System performance analysis toolkit
+
+%CSIZE%
+6928812
+
+%ISIZE%
+22805873
+
+%MD5SUM%
+834885fb4e22d3d4992382cb86ad2d74
+
+%SHA256SUM%
+91814cdf6f86928f4a7a8ee2351cc75800a9e4673b117cbe96b4bd8d9da5a602
+
+%PGPSIG%
+iF0EABECAB0WIQQsEYxiDwLbmsHQ+fqU3SOT2i7kIwUCXzEDyAAKCRCU3SOT2i7kI5WgAKCS8qzdjpuj8OZMCRe01EW7OqJmzACdH565zNOaMPyzTMpve++j/8WNagk=
+
+%URL%
+https://pcp.io
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1597047229
+
+%PACKAGER%
+Massimiliano Torromeo <massimiliano.torromeo@gmail.com>
+
+%DEPENDS%
+python
+avahi
+procps-ng
+which
+
+%OPTDEPENDS%
+libmicrohttpd: support for pmwebd
+cairo: support for pmwebd
+qt5-svg: support for PCP-GUI and pmchart
+perl-xml-tokeparser: support for sar2pcp
+perl-date-parse: support for sar2pcp
+
+%MAKEDEPENDS%
+libmicrohttpd
+cairo
+qt5-svg
+

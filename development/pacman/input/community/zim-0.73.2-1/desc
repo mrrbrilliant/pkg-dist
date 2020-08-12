@@ -1,0 +1,71 @@
+%FILENAME%
+zim-0.73.2-1-any.pkg.tar.zst
+
+%NAME%
+zim
+
+%BASE%
+zim
+
+%VERSION%
+0.73.2-1
+
+%DESC%
+A WYSIWYG text editor that aims at bringing the concept of a wiki to the desktop.
+
+%CSIZE%
+1746027
+
+%ISIZE%
+7666286
+
+%MD5SUM%
+573269d3cf65c4ac8bcac86a232457b7
+
+%SHA256SUM%
+400c1683e0654ebbdc6435fe42fa84e4da6cb7d3d2449b17433aefceeb279cd9
+
+%PGPSIG%
+iQIzBAABCgAdFiEEz6avFeXHQUn8HYwIbRZVwUzhwT4FAl8diuwACgkQbRZVwUzhwT7+sRAAmorENQP1dl0ML2jauLtUCSFq/6f552ou2O0VgBb5M5E3ZdLHpyf8YaBsQ1z7CcMfI86rHv1pPHRGcWTQhLjMZJmw6Lxdfcg015M49pGlDpJDFvYvPBirkwf51pLa0D8XaQY2c/13Cgm9sLbs9SKHjS3cwG/JkNNieC3a4f/PqPSESt8y9HRdJ1KaC1reJTGXYoPGEnoXkyTp8Fp9EGlcjB3bw6mLcoSVxxi20kwM2YxxvBGUSYjUu3hpl2C8KGa7RdsdZUuLVfLEN4tNLBBdEeowS5078Vyglghi6ulncMozc+QcC6tgCtSzmu/4ZDYBI3BJr1iqsA13v8xq2jJrKCxJbBpEC2s0vp2hSmrhlHe1AunaRTwct4iJcuUMdHNYiPZo5gZ5P3bV8AIh45Ia6Lv0Pc6g7B+8bFhyB8CmIOa5N18/pHEWPal4QLev8rYcY5S266JYpRBXqQOIRMEodkUbh9yloiXdEr/bBRae2dpTrAA6oGU5Ji0OqhXF2o/0w500Af4Q8gBitiVzdBDSX+0XLaR2Zvd+DOL9PSABSGyBwZWT5VDxXWdMYcOOaioJ0zdfjGbiWYzHZZYAry0MO8SY2dqEw/q4wCLpSlfC57GEt8rmWWPOhGeiAZYZtwxmXj5iLbf5bqc4+Bz5aabVozx38oKgnhUrDKGk0raiYV0=
+
+%URL%
+https://zim-wiki.org/
+
+%LICENSE%
+GPL
+PerlArtistic
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595771576
+
+%PACKAGER%
+Florian Pritz <bluewind@xinu.at>
+
+%DEPENDS%
+python
+python-gobject
+ttf-font
+gtk3
+python-xdg
+
+%OPTDEPENDS%
+bzr: Version Control plugin
+git: Version Control plugin
+mercurial: Version Control plugin
+gnuplot: Insert Gnuplot plugin
+ditaa: Insert Ditaa plugin
+graphviz: Insert Diagram plugin
+xdot: Link Map plugin
+gtkspell3: Spell Checker plugin
+r: Insert GNU R Plot plugin
+scrot: Insert Screenshot plugin
+lilypond: Insert Score plugin
+gtksourceview3: Source View plugin
+texlive-bin: Insert Equation plugin
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+

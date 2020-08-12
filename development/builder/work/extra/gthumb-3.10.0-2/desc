@@ -1,0 +1,76 @@
+%FILENAME%
+gthumb-3.10.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+gthumb
+
+%BASE%
+gthumb
+
+%VERSION%
+3.10.0-2
+
+%DESC%
+Image browser and viewer for the GNOME Desktop
+
+%CSIZE%
+5621962
+
+%ISIZE%
+15638974
+
+%MD5SUM%
+6bfbcf1405eb3539a89ec68213515ac7
+
+%SHA256SUM%
+fc7de793e875bda1bd74af32654afe66cd6f704a9a87a0f9ed3bcec96264acdf
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8ZvUcACgkQek52CV2KUuRwdggAn8Vyjk4eoZCXoavLqJZPEe+9fojYJPhpc3lcfNP8MnBzzFYMzYlutOdn1BsyE8E3zK3Da9O74KLdQ+s6RBm3BHgCrS6RwOudVxttwnekbGf59nMunxpoXpLtGBLBvh91bPSCkJr7DO7sk2x7Zwo3ktQ8M+/9OfxME/k/kXHb2MEw0ZmITZkAWGA0RltPjE5sJDKpSLykNHq38M/JMilaO0Vxf6GlTzeXRCq8D+B4sbk/a2sLEskav2j+8FYqfRrwg4wb0YzeUvirWsa+K+nYQt6dGSFj0SCyUssaBP9nnunsRY3CXvqDw3WkdXdqmgNib8tD5SwbDwCjbhSZ3QseRQ==
+
+%URL%
+https://wiki.gnome.org/Apps/gthumb
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595522197
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+dconf
+librsvg
+clutter-gtk
+gst-plugins-base-libs
+gsettings-desktop-schemas
+libwebp
+libsecret
+libsoup
+webkit2gtk
+json-glib
+gst-plugin-gtk
+
+%OPTDEPENDS%
+libraw: read RAW files
+exiv2: metadata support
+libchamplain: map viewer
+brasero: burn discs
+liboauth: web albums
+
+%MAKEDEPENDS%
+libchamplain
+exiv2
+brasero
+libraw
+liboauth
+docbook-xsl
+yelp-tools
+meson
+git
+

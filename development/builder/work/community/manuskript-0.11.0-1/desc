@@ -1,0 +1,58 @@
+%FILENAME%
+manuskript-0.11.0-1-any.pkg.tar.zst
+
+%NAME%
+manuskript
+
+%BASE%
+manuskript
+
+%VERSION%
+0.11.0-1
+
+%DESC%
+Provides a rich environment to help writers create their first draft and then further refine and edit their masterpiece
+
+%CSIZE%
+2739560
+
+%ISIZE%
+13807714
+
+%MD5SUM%
+20c149486caebd8f38ec8ec58e1717fc
+
+%SHA256SUM%
+c00301c6086cd21e7105a0bddb1bf0237cb5035c51faef2f643c2086dc5532c9
+
+%PGPSIG%
+iQEzBAABCAAdFiEEzgvecadZqH8j8PfYth284QkBwWMFAl8kGCIACgkQth284QkBwWOHNwf/Vx2QpJ3wcowqKmTYEGJU0l6s/RYZsJqmPpqXVIl5/VfHLqdPWC9l3fhiYlvMCdGvJIIz18qNlaOMtnlL+UKs2Dt25Ht5xj11HKp6GrHeP3N4A76pwmFj3GQtBhAlS+fqzhLbMl7vpyT2UqkNpR0v2TSTm3a1HACOVJWz2y5wEhkr3H91pTay9XF8EayryMdCoLkhmvPcD6Bt6MsxMy8LkgO3VF1D3Y1Nv6q1c+KKik08QDdAvSBh2F0x2i9OgPF178xFppFawtpAIjjfburXzFr+JTP2Hx0pDtIHJuYj9nmVjVvMYCvHm6UYLTOhAEex8FJIH6hYKg8bRxseGDdCRg==
+
+%URL%
+https://www.theologeek.ch/manuskript/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1596200915
+
+%PACKAGER%
+Balló György <ballogyor+arch@gmail.com>
+
+%DEPENDS%
+hicolor-icon-theme
+python-lxml
+python-markdown
+python-pyenchant
+python-pyqt5
+qt5-svg
+
+%OPTDEPENDS%
+qt5-webengine: preview PDF export
+pandoc: export to various formats
+pdfjs: preview PDF export
+

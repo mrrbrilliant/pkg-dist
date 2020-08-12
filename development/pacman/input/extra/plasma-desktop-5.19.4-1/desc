@@ -1,0 +1,75 @@
+%FILENAME%
+plasma-desktop-5.19.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-desktop
+
+%BASE%
+plasma-desktop
+
+%VERSION%
+5.19.4-1
+
+%DESC%
+KDE Plasma Desktop
+
+%GROUPS%
+plasma
+
+%CSIZE%
+11513956
+
+%ISIZE%
+34646954
+
+%MD5SUM%
+67e0cead8dbd1ce3ac56bf917a5c5402
+
+%SHA256SUM%
+bef02ea90f364637bf2913a1edf2347dc21a3fb4bf92ad7782145c37dc81616d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8gR1IACgkQek52CV2KUuTdqQf/UjIwGmunm7ozoti8LGKOaxV+Vl0jwvgaT7FFekiYFuQ7kzJ46I2uNiQTeOUMfKxlHKYf9HCDqXWib5TbqdUgAy6NDUvOq+5jiu0/fTeXylLfkUalqWbdi+4qeHbNcedO8MCKYWJm5pAvXdvO658sX6NTrgT+ymTrcm9/lAorDzWSb/FITtTGfrCQckcIY3vLFlwfrFKlBKOICVs/L0WXJuxJhuWp3KND7hfGRVtvZ5xPhSq0PEYSrM9VZYq5U+9msxlvxo36ZxfPDvMcyrsopDAv4pn+jEIRanHr/f1s7FtpXsrY+TTYbw8NMQug0X8tREZtHL1n+gsyTsS8dkV7sw==
+
+%URL%
+https://www.kde.org/workspaces/plasmadesktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595947569
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+polkit-kde-agent
+libxkbfile
+kmenuedit
+systemsettings
+ksysguard
+baloo
+libibus
+knetattach
+
+%OPTDEPENDS%
+plasma-nm: Network manager applet
+powerdevil: power management, suspend and hibernate support
+kscreen: screen management
+ibus: kimpanel IBUS support
+scim: kimpanel SCIM support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+xf86-input-evdev
+xf86-input-synaptics
+xf86-input-libinput
+xorg-server-devel
+scim
+kdesignerplugin
+

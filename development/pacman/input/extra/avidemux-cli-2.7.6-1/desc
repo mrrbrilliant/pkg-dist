@@ -1,0 +1,106 @@
+%FILENAME%
+avidemux-cli-2.7.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+avidemux-cli
+
+%BASE%
+avidemux
+
+%VERSION%
+2.7.6-1
+
+%DESC%
+Graphical tool to edit video (filter/re-encode/split)
+
+%CSIZE%
+6589576
+
+%ISIZE%
+19586826
+
+%MD5SUM%
+8e7fbba91d5e4be419250b7793be65c8
+
+%SHA256SUM%
+35931ba40bfd6c64317e1199edaf3cb900cf2bb6c5a2d9247a6cc62457870b32
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAl8QyLYACgkQ/BtUfI2BcsjJqBAAjTO1bbJRvkxOXpVr7aIOcPJDVs4ZX6rYs5KIL9IVR6sNZInvFdzUte4pCVFJKJ9VU8dX2dOPynvAPWidLAzlfvY99qaoxSrXg22B6vAijVXCZpCPpuGui3R+7XlNoN35hojzdgpvBvuNVR9DMKi8FCUutAjLO3JdTjTyJ7CYKOUlGw3gokSD2ENjKhJvJIyilNKtCIjzTfuZ/5S/b0Y7FElDMk3KaCPF4aaW6jYdspi0Niu8iiOMvUF7wvEpaQ2izzRPwNJhWZ7SjG1lVDVOxii+WBwyy83bL1LThy0cX0trk6Pw7ZKvf5NT3G43fv5MlIq4ba34Gg6awN8X83/gPFlOAUzV1AdW2ERIVz5glunIi5dhu7xoSGweSXvv6BWXtZJX8H55VCulZTBRiXqsbMAKZiPQeP1mmdruYfUjmcmt3duJ336E+Q0XZHDFuAB6V+37lKWw9bGa89lIDVlHq51bQkky0yu2rIHYdU5HUKG1IsrTbOcGRTBHcWVeE3aukcSt1Wj/F/KSurT14mSzjUyPF6PgDFKbH6Ne3n248brsmG+ZbLaEENTilcyEMsCgtsf/6ptLTnlI6YH71Es4PbyYLI4mV9mkcE9bMEbmSvBOnDYse8ytRIv/4WRSZ7PHD1YZzPVlbX0XQV8K1FsqRCnAWRlW0nRx0EbXm27yEfo=
+
+%URL%
+http://fixounet.free.fr/avidemux/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594934714
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+libxml2
+fontconfig
+sqlite
+libvpx
+libva
+libvdpau
+
+%OPTDEPENDS%
+lame: for the corresponding audio encoder plugin
+faac: for the corresponding audio encoder plugin
+faad2: for the corresponding audio decoder plugin
+opus: for the corresponding audio decoder plugin
+opencore-amr: for the corresponding audio decoder plugin
+jack: for the corresponding audio device plugin
+libpulse: for the corresponding audio device plugin
+x264: for the corresponding video encoder plugin
+libx264: for the corresponding video encoder plugin
+x265: for the corresponding video encoder plugin
+xvidcore: for the corresponding video encoder plugin
+qt5-base: for the QtScript scripting support
+libdca: for the corresponding audio decoder plugin
+libfdk-aac: for the corresponding audio decoder plugin
+twolame: for the corresponding audio decoder plugin
+libass: for the corresponding video filter plugin
+fribidi: for the corresponding video filter plugin
+
+%MAKEDEPENDS%
+cmake
+libxslt
+qt5-base
+jack
+libvorbis
+libxv
+opus
+desktop-file-utils
+alsa-lib
+lame
+xvidcore
+faad2
+faac
+x264
+x265
+libsamplerate
+opencore-amr
+yasm
+mesa
+libvpx
+libpulse
+libva
+intltool
+sqlite
+libvdpau
+libdca
+fribidi
+glu
+qt5-tools
+twolame
+libfdk-aac
+libass
+

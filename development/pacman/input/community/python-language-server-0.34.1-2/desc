@@ -1,0 +1,86 @@
+%FILENAME%
+python-language-server-0.34.1-2-any.pkg.tar.zst
+
+%NAME%
+python-language-server
+
+%BASE%
+python-language-server
+
+%VERSION%
+0.34.1-2
+
+%DESC%
+An implementation of the Language Server Protocol for Python
+
+%CSIZE%
+81828
+
+%ISIZE%
+331205
+
+%MD5SUM%
+a10621b32609bcca90da10c6c01bb325
+
+%SHA256SUM%
+55f8aff310c7a9485e5318816568ddf2d2945e54e2b1edf1a3197e429f4fb350
+
+%PGPSIG%
+iQIzBAABCgAdFiEEktnGzemaICTWkKdu50JoO6CMsv8FAl8Mr9MACgkQ50JoO6CMsv8zEA/9EfUzlWEN3jWEGgP2QuCWNzmQWHl3Z/KJSSDPQQY/CSiKy8ia/+/m+mQ8GmwgaDaxxD1xeCHUTPoql2SP15XFOBrXos3I9ZaxwgWezuu0jFQfwTYtK2GN4+B4bXlmeTREr0tKbdkNDBooTP8+oU6ubPXm311Wn++RmWoNtP2jl4l7vuB5di2JBmHbln0a2PpH0mxOVe8ZqTYPA+JrzJ8B3+ypqq9PNgUiUuNxF+T1d6YviXpizQJgx1BfEg0uCygP8RDL7WxeMUdY0/bYeCMiCGcfdQe22etcwy2upqKTY0rXpxit1Gqo6OZTb66YUJJf+T9p2x2ZkxAANVqKt/gwlqpTDGoN0qBnvneG2UwBYAM2OiobgBXmp+FZJJg0eCtaWLOaHixx0phsBonQdBpE3nRHWT4Pu8niiu7X6JQDD0hsFg61ApdjwIM4420HijM2m7jyPxx6X6TvUzaJCAmKhvsSmRSqBqWVAEKMLWADwLjK5oax+jZP+0aHmATrpFbsj5T8mIy7NvXkpK3QrffY1AGJ7zLRmPiQ6z3vqNbSknmH/PnGB76yi1/o9bZ7nGYHq4u5z6GnkrQu3EE4nN5rm2C64RaLPe0NlVJMSOXMzRGTiEhOd0q8BpswuIn6iwHIe1aH/j/onS/1PoUjdx/igANO+rq2QW7sr3qlcSbXZBk=
+
+%URL%
+https://github.com/palantir/python-language-server
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1594666765
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+python-jsonrpc-server
+python-future
+python-jedi
+python-pluggy
+python-ujson
+
+%OPTDEPENDS%
+python-mccabe: for complexity checking
+python-rope: for completions and renaming
+python-pyflakes: for linter to detect various errors
+flake8: for code linting
+python-pycodestyle: for style checking
+python-pylint: for code linting
+autopep8: for code formatting
+yapf: for code formatting (preferred over autopep8)
+python-pydocstyle: for docstring style checking
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-runner
+python-pytest-cov
+python-pyflakes
+flake8
+python-mock
+python-jedi
+python-future
+yapf
+python-mccabe
+python-pycodestyle
+autopep8
+python-rope
+python-pydocstyle
+python-pylint
+python-jsonrpc-server
+python-numpy
+python-pandas
+python-matplotlib
+

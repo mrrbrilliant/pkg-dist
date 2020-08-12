@@ -1,0 +1,62 @@
+%FILENAME%
+mattermost-5.25.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+mattermost
+
+%BASE%
+mattermost
+
+%VERSION%
+5.25.1-1
+
+%DESC%
+Open source Slack-alternative in Golang and React
+
+%CSIZE%
+38939969
+
+%ISIZE%
+137745263
+
+%MD5SUM%
+bbe2567aded2744d7b8eeca4889b705d
+
+%SHA256SUM%
+e236e5629a7ec1c35da07b0e6dbbadded9e4ffb7e53bbd09830e9463ea5b3f70
+
+%PGPSIG%
+iQEzBAABCgAdFiEEado014/g79WWrG0EnYk+xNqvkSkFAl8cZJ4ACgkQnYk+xNqvkSmWvQf8DaOKUIRcdPTSj3jaytybgzm82PCg3z/TcQRpBsVCP+w6ibbKAeNPQEAiXLoraaHwKhnJdC59SiWAs36T20wQE03i6BEO0DPN7pFwe6vhzy5hjyrJn1yW3b7Xg1lMH7QQZJgB3r6uhNWVGOR6y1I+GH1rbUkGAt3jtCc/AxWpLoTqqGTrOcli7cIxY8gMKaTNiVlB16ijdDI0k17+i6mli7AiAayhEON4nY+/adGpZQu6atqG9bShHaQSAjvbqq96oP5YojjMa4sLoXVhGea7Z+mtN/J8AEnz+Ma5AzsgMfhlR6efLPaHdM+ZZlLNtVDVgwlDNujxEKCQXnBrBP2T+A==
+
+%URL%
+https://mattermost.com
+
+%LICENSE%
+AGPL
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595694413
+
+%PACKAGER%
+Bruno Pagani <archange@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+mariadb: SQL server storage
+percona-server: SQL server storage
+postgresql: SQL server storage
+
+%MAKEDEPENDS%
+go
+jq
+nodejs
+npm
+git
+python2
+

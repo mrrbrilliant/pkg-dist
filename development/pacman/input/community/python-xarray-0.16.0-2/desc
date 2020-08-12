@@ -1,0 +1,75 @@
+%FILENAME%
+python-xarray-0.16.0-2-any.pkg.tar.zst
+
+%NAME%
+python-xarray
+
+%BASE%
+python-xarray
+
+%VERSION%
+0.16.0-2
+
+%DESC%
+N-D labeled arrays and datasets in Python
+
+%CSIZE%
+601645
+
+%ISIZE%
+4253140
+
+%MD5SUM%
+62645a0cd932d96a361bac8d26e64837
+
+%SHA256SUM%
+f55e3e015e0aded6f3339565d27f56f7cd464fd487886ad43c671bcb09eaa695
+
+%PGPSIG%
+iQEzBAABCgAdFiEEado014/g79WWrG0EnYk+xNqvkSkFAl8gNooACgkQnYk+xNqvkSlL1Qf6Ar8GnOLvHl2+fTbzWOlvcnn6TKM9K24iSgCA8jp9o1v9nbwSEbAzDxbOYs+2fftBHcDSKkXADw+LY2quUQ72gNeQpMS9HXj7m0HsZDPm7r465U3KE+xdBAbzKHeV14QJfAE/hiakRrFm35+VXIcM55JR3RFHe/PHZUX9QcDJPLgHObMV0gtB7mLUmn7/O3hlDctrSpUI/TtgpFO8ElLFFE/d56lKOEp0aXF9PpfrOIpzOTNX7VlhSEPXerneDeNBFAkcKz6udl+Onl4KE9WUlH/AlP0+oT7zYVqDfpSB8QLhN8Uu1M3RM9U6uzq4Vpj21fLpkTptA/wrUvdkfgnZuw==
+
+%URL%
+https://xarray.pydata.org/
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595945734
+
+%PACKAGER%
+Bruno Pagani <archange@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-pandas
+
+%OPTDEPENDS%
+python-netcdf4: netCDF4 support
+python-scipy: interpolation features & fallback for netCDF3 support
+python-cftime: datetimes support for non-standard calendars or distant dates
+python-bottleneck: faster NaN-skipping and rolling window aggregations
+python-dask: parallel computation
+python-distributed: parallel computation
+python-matplotlib: plotting support
+python-seaborn: better color palettes for plots
+python-pint: units of measure support
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-netcdf4
+python-scipy
+python-cftime
+python-bottleneck
+python-dask
+python-distributed
+python-matplotlib
+python-seaborn
+python-pint
+

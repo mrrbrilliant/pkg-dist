@@ -1,0 +1,70 @@
+%FILENAME%
+padthv1-0.9.16-1-x86_64.pkg.tar.zst
+
+%NAME%
+padthv1
+
+%BASE%
+padthv1
+
+%VERSION%
+0.9.16-1
+
+%DESC%
+An old-school polyphonic additive synthesizer
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+416179
+
+%ISIZE%
+1953921
+
+%MD5SUM%
+6598e4c70429c4ab3e89d783ff9cfa9f
+
+%SHA256SUM%
+087bee3f6becad0ed942236c0b2ab389fd3807b11edf5b10b2ae12a6b87ee573
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXywZWwAKCRByWHNLQcMVSW+kAQCDEiCeFZlECKHWyl2nmoFV9BrYMiY2pqOJD1DbCzzL4AD+LMJbEVaglJJrHJNyUuVT8sXuJeloOdvkVlQyvXqeCAU=
+
+%URL%
+https://padthv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596723141
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+qt5-base
+libfftw3.so=3-64
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+non-session-manager: for session management using the standalone application
+
+%MAKEDEPENDS%
+alsa-lib
+fftw
+jack
+liblo
+lv2
+qt5-tools
+

@@ -1,0 +1,75 @@
+%FILENAME%
+jre8-openjdk-8.u262-1-x86_64.pkg.tar.zst
+
+%NAME%
+jre8-openjdk
+
+%BASE%
+java8-openjdk
+
+%VERSION%
+8.u262-1
+
+%DESC%
+OpenJDK Java 8 full runtime environment
+
+%CSIZE%
+180549
+
+%ISIZE%
+420949
+
+%MD5SUM%
+08c9a2d748aaeba6db302acd83675e54
+
+%SHA256SUM%
+25d3e4f938f70738ed04a5ae4d57d43e0cf6b8efa9de6c31be0697a3171d5496
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAl8QwA8ACgkQ/BtUfI2BcsjYEhAAwUuQIXjQMjc34JwexrbbwuuDzX1iUpE5WuosgajmfzNfFU0p3Gn4WpEKHEuv86qvyZhkvDRIHXf4FGACYbzEHcW38uNXRTgKeQDZ6RKAu7JKvguijCXPqjBEHn09XYaF7aliZ0XFmo/Aw2BhNAU9KGjprx9Iqk5363aNERNyFf3KI1MAZnuIuZkLoyW3hUJqeEyyNWvlI07KhGFah0anbqZ53pRh3EIhLiWfVSjYT6t4AGqPLqlYvrYm8MDoxD5/8uw5Y9pzcpUgaQ1Gp0zVfz07Y5utr6tUAXgQ5ajMa2zEhX+eMmhjfzeN/I2wECXJ2F7Ob3lEvh51IGTqHsyVWiC+mvEjeKKGGEw9JcyNX+M8Nkggu6OAyW3awe9mRYattRgE51bj7cakjyKIcNcZAVGSCKRHSLQ68CXcA0lbCeaogWrrIoW1JQTnMj/7Z3kq+mnRTzrvb2fzyemG1vZ/nr7FTBGTSplMPUPyvnLjq2k+s1Bw2NBDbPKAEmBcr9R3NwcuTYrRU8+ux6M8kWEXokigcWHEnbIumzOwW7tyHbOpdtQOkwKvA/rzZVo8k3mckqp8fGpkt6V20Xj2JBZoM0I7HSYAGicBfoGjjCNZISZAM6Cj37IDKoP/5UYcujrlQzTKO4yYvu8ZkWU+muWG6gFD19/YFQZVWJ5QTQl3318=
+
+%URL%
+https://openjdk.java.net/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594932093
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%REPLACES%
+jre8-openjdk-wm
+
+%PROVIDES%
+java-runtime=8
+java-runtime-openjdk=8
+
+%DEPENDS%
+jre8-openjdk-headless=8.u262-1
+xdg-utils
+hicolor-icon-theme
+
+%OPTDEPENDS%
+icedtea-web: web browser plugin + Java Web Start
+alsa-lib: for basic sound support
+gtk2: for the Gtk+ look and feel - desktop usage
+java8-openjfx: for JavaFX GUI components support
+
+%MAKEDEPENDS%
+java-environment=8
+ccache
+cpio
+unzip
+zip
+libxrender
+libxtst
+fontconfig
+libcups
+alsa-lib
+

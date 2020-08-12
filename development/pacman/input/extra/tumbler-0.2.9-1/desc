@@ -1,0 +1,68 @@
+%FILENAME%
+tumbler-0.2.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+tumbler
+
+%BASE%
+tumbler
+
+%VERSION%
+0.2.9-1
+
+%DESC%
+D-Bus service for applications to request thumbnails
+
+%GROUPS%
+xfce4
+
+%CSIZE%
+170211
+
+%ISIZE%
+846235
+
+%MD5SUM%
+89537a4ccc4a504b2ff0c5bf0505f496
+
+%SHA256SUM%
+55e1f8964872e0c5d933c0156aae3ab14606a0cee919ad14353777967f14e314
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAl8r9eMACgkQUeixSKmZnDSgrQf+Ngcy19BenleDBAYTMwVCb72IzTrOsUrZSutNIYazNSk9JsQI/DqjEF87aaDduFJ1sspHOiR/xp7Jb+oHDdm+iQ9CqrOepGoO99XiV/eiU2AHg98nGYetwcJ1UGTyIQtDIQsaUKzx+qE56itS+7T8/I3Qy9RiH3+mW1GcIcs8OkvivM4hOdr5QMaIBmrGigxpQec8yhdfVqzOfEgF/e7eP1g76EcCMk6x8cV7VLcMOqUyrid1CKgbCjRjn5sAcreMcTkXvi4iWYe0LJwMtVNpbXBCoY/6FG4h56aBJQ6m2udSkWpQXlkSCXUfqHiipzaWhxleqE3LZIfqu10gDbFEJg==
+
+%URL%
+https://www.xfce.org/
+
+%LICENSE%
+GPL2
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596716452
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+gdk-pixbuf2
+
+%OPTDEPENDS%
+ffmpegthumbnailer: for video thumbnails
+poppler-glib: for PDF thumbnails
+libgsf: for ODF thumbnails
+libopenraw: for RAW thumbnails
+freetype2: for font thumbnails
+
+%MAKEDEPENDS%
+intltool
+python
+ffmpegthumbnailer
+poppler-glib
+libgsf
+libopenraw
+freetype2
+

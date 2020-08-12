@@ -1,0 +1,61 @@
+%FILENAME%
+liteide-37.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+liteide
+
+%BASE%
+liteide
+
+%VERSION%
+37.2-2
+
+%DESC%
+IDE for editing and building projects written in the Go programming language
+
+%CSIZE%
+10465984
+
+%ISIZE%
+47747448
+
+%MD5SUM%
+0007b0ab49647dd69da5259b7f1f0f71
+
+%SHA256SUM%
+b074aea35c47310dfeed26c66c241a166c395ae576982353107b22e28124a3c9
+
+%PGPSIG%
+iQEzBAABCAAdFiEElihV8HLHoBhGQFhk/PPIy1z5yNQFAl8tsqYACgkQ/PPIy1z5yNQgzgf/R7YuEN0GMVYLPPMwxEfeUsUK8IvllYmRerW8/UPZcuor0+mrYSp3fPbbiUmczvxLfgnc0gvSMYkcONp++jiDitahpBpOzcGQ58tydAeBXkiIZFnd5ewYrySK8HM2iFZOhFmrIOO4/TN5/Vap16gqdpUFPnSO546ytlnxtcZwtASLLapNOSMtQazCYnUXg7f8mwdyatLE//1mOc8EY0XlbkkD7lfP1o9D9d1v6ynl/IIDfA77w/9709MvJiYRYZL8xn5MQxJqHVmkPuS+5TMWLDIu73OYdxBlo+rc9laofoiQrV7RooaiMK29669FpB+W7wSC3URHOeOhUfPGp+VgwA==
+
+%URL%
+https://github.com/visualfc/liteide
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596830060
+
+%PACKAGER%
+Alexander Rødseth <rodseth@gmail.com>
+
+%DEPENDS%
+go-tools
+qt5-webkit
+
+%OPTDEPENDS%
+go-pie: go compiler
+go: go compiler
+gcc-go: go compiler
+
+%MAKEDEPENDS%
+go
+git
+imagemagick
+mercurial
+setconf
+

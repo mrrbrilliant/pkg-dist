@@ -1,0 +1,118 @@
+%FILENAME%
+root-6.22.00-3-x86_64.pkg.tar.zst
+
+%NAME%
+root
+
+%BASE%
+root
+
+%VERSION%
+6.22.00-3
+
+%DESC%
+C++ data analysis framework and interpreter from CERN
+
+%CSIZE%
+118880664
+
+%ISIZE%
+386745482
+
+%MD5SUM%
+1f417dd4f077a2afeb17420cce6db0d4
+
+%SHA256SUM%
+cb7e968e70f6a94358e902deca08a6af3430a98491bfccacc1c5d53736701eb2
+
+%PGPSIG%
+iQEzBAABCAAdFiEEU1nMa+iBGLUfXJC1YH21X/cbcFIFAl8d+a0ACgkQYH21X/cbcFJWpQf+K+kSKV1+6TAjBLI9xlbeWK/sVCrsRZxAdSFQUq2XXS3t3APtbf/GgjBQq+vOxL/D5DuYZHRKmLyzXdBAzyEie0Xg/fA/iiCpuckbE4H5xLMrAXchXv9jlOr5i/31mp8iQ+S6axIZlnaskVikF1c1JeqQtSd4hE3aG1f6MWlt0uqaj4lGs2I+EBB6l35G0T8S2JExlVAKvBHMRlTtT/yhFl8TaaOq6i23VDAM0xasm5TQA/8NiWNWFu18C4dw4AaBSri3JHQyB51Xu/rUhHqKLEqBs7+iIQH6iOqeiiJBIKt9aQSNC9ozOyy3XQpyHQsztZOBYsqbtwNdoHFXd/nuPQ==
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL2.1
+GPL
+custom:University of California and Stanford University License
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595797778
+
+%PACKAGER%
+Konstantin Gizdov <arch@kge.pw>
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+graphviz
+gsl
+hicolor-icon-theme
+intel-tbb
+libafterimage
+librsvg
+libxpm
+python
+python-numpy
+tex-gyre-fonts
+unixodbc
+xxhash>=0.6.5-1
+zstd
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+chromium: Support for WebGUI
+cfitsio: Read images and data from FITS files
+libmariadbclient: MySQL support
+libxml2: XML parser interface
+openmp: Support OpenMP extensions in Minuit2
+openmpi: Support OpenMPI extensions in Minuit2
+openssl: OpenSSL support
+postgresql-libs: PostgreSQL support
+pythia8>=8.2.40-1: Pythia8 EG support
+qt5-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd4: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+gcc-fortran: Enable the Fortran components of ROOT
+
+%MAKEDEPENDS%
+ccache
+cern-vdt
+chromium
+cfitsio
+cmake
+cuda
+cudnn
+gcc-fortran
+gcc9-fortran
+git
+go
+libxml2
+libmariadbclient
+ocaml
+ocaml-ctypes
+openmp
+openmpi
+openssl
+postgresql-libs
+pythia8>=8.2.40-1
+qt5-webengine
+sqlite
+unuran
+vc
+xrootd4
+z3
+

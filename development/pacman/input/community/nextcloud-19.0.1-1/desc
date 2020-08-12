@@ -1,0 +1,63 @@
+%FILENAME%
+nextcloud-19.0.1-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+19.0.1-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+66089404
+
+%ISIZE%
+278595681
+
+%MD5SUM%
+c7b8499187a76ba9225b712bb82afe88
+
+%SHA256SUM%
+3f51045430b3560926a6798ddd4d990b97c1db3ef481c6e6fc2a4144b0129959
+
+%PGPSIG%
+iQJGBAABCAAwFiEEPlGL8lJv0Zeeiq5JZcEQwepDP8cFAl8UJRsSHGFyY2hAc2VyZ2VqLnBwLnJ1AAoJEGXBEMHqQz/HrGEQANSc9DxUjlfZGfP+bHdHCxT5xTuuguJ6xbHUSb1TIF/3ruWgp8sMYmam53yUjDRO4q6HWkdDaJd4UHrI4jzqdMhhWe0LsfwB2xfqz1RVb/DLtdq0AAyOO/PFcrHp4/VGTE+vPEpwMHsy+yDNO3FO/6MqsNTE/1xI48AkMaAkjGkuFnLY9SUUoNkQBxRIlm9W7N2jnLZfITqOv99YJGRi6jNPsxA413hqZSOYp4potJojEcGYnKAob8ichskD1sK9lLJwgnI8kpi2F6t0tFwxUd/Mo0+1o4NTIrAH0j5KkIH7zD+2kEu9RS0kSs1ECaR+oDiTP3UPdoKZJd20LXNyOWD1v58a4jvxmPm1eanujpIuKohPJXL08ueSToXZKISHl1GtJ7pUMKCs4GySOoUigjna95brncbKgZukhAG433co8QT8uPJ0lPrGbeNyoYF6HJbJIuMa0w569uEtqZv/oLnqSzDadG+MkAlzQceT7Zr1kFc3CVlqoQr7D8nVwqgecOi+juX5hDABX2rU9XUH6syB4zI9FlE39KSBiFw6Yj149b+lhcRsCF5ZUg1DbyXG7J6njKc5/2hgSSHIbLEip7Q1vx3ZgfnG1NPWGUDCmfUmrgIEEaOfCS4hbap+ZyufHGQPuzdg3r3VAVE692XPY2tDDr6TJzeuXoVwYymcHIAe
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595155327
+
+%PACKAGER%
+Sergej Pupykin <pupykin.s+arch@gmail.com>
+
+%DEPENDS%
+php>=7.4.0
+php<7.5.0
+php-gd
+
+%OPTDEPENDS%
+php-apache: to use the Apache web server
+php-sqlite: to use the SQLite database backend
+php-pgsql: to use the PostgreSQL database backend
+php-ldap: LDAP authentication
+php-intl
+php-apcu
+mariadb: to use the MySQL database backend
+smbclient: to mount SAMBA shares
+php-mcrypt
+ffmpeg: file preview
+libreoffice: file preview
+

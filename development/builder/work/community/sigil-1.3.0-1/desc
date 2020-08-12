@@ -1,0 +1,71 @@
+%FILENAME%
+sigil-1.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+sigil
+
+%BASE%
+sigil
+
+%VERSION%
+1.3.0-1
+
+%DESC%
+multi-platform EPUB2/EPUB3 ebook editor
+
+%CSIZE%
+3442016
+
+%ISIZE%
+17418198
+
+%MD5SUM%
+2c477da70e29af25a840daa78355adbb
+
+%SHA256SUM%
+81925b6983329409fd430cf18fad412173f4c8b7839449b6aa17124ccccd4574
+
+%PGPSIG%
+iQIzBAABCgAdFiEEYEETBMCdNmKDQO7/zrFn77VyK9YFAl8gJvwACgkQzrFn77VyK9aQhhAAgqsfjoOoB5Crc1Wy1NRbF3jZwOctEkZ0Rhw6iAgCWdsuHjNoaAwb0JhDx5Laig0wM0WhD42TKR5zh7l11U2A4JOeulK+kll7bI3RXyoKtRP/fTGZyfpzBbgVzd04Eird2oc7QmxUo7F54n6Lifgu/PFzc440XT+/YUu8N7UiBgc5PAhJNTNofmMNL758a9gluFXDFLtBSWxu+kdVmYz3aBejap+GboandDPvAIcv/2b5SatJSxTghaYl1Ww1F3YTTscVQRcGNZwux/I1q+H945liOZwDaKn2p1RxQlSObu6ramnaN5UerBKnbirSGlW6IgNAK2rIP3gdD9JSJm7mTJmXqO4O9fB0DpOndjmHADTfCHNEbGNU4MJBDPHnPvB3wkWXXIv37eOE9WlhueQXwTBhuxEgUrT3mUe1GDg+nDK+PixpV7FclhXizPgtS2NxZ3ISiJI6oTP4O+tXwDIkGcTSW8lwyPGeRhDYM1+voPcRYOiLJH6NE6xvDjeTlrPQzc5BrQy1j+JMQxjTpgKCLXPKq5FZBb/BtWO/vLYG6gYV5s1O1cooW63jP3D58MZ5+eUzUCklIbtbsly3SF49nzSAvrzN8AK0xqkvjcZi/orTGw9HFBQP03SiwrCJ7Sg+aNjVQi/hJ99/VpWH344Rnup1HCq0OlEFWCiiAevxEAE=
+
+%URL%
+https://sigil-ebook.com/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595914115
+
+%PACKAGER%
+Eli Schwartz <eschwartz@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+hunspell
+mathjax2
+minizip
+python-css-parser
+python-dulwich
+python-lxml
+qt5-webengine
+
+%OPTDEPENDS%
+hunspell-en_US: for English dictionary support
+hyphen-en: for English hyphenation support in plugins
+pageedit: external editor to replace BookView
+python-html5lib: recommended for plugins
+python-chardet: recommended for plugins
+python-cssselect: recommended for plugins
+python-pillow: recommended for plugins
+python-regex: recommended for plugins
+python-pyqt5: recommended for plugins
+tk: recommended for plugins
+
+%MAKEDEPENDS%
+qt5-tools
+cmake
+

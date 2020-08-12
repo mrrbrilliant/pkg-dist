@@ -1,0 +1,74 @@
+%FILENAME%
+suil-0.10.6-2-x86_64.pkg.tar.xz
+
+%NAME%
+suil
+
+%BASE%
+suil
+
+%VERSION%
+0.10.6-2
+
+%DESC%
+A lightweight C library for loading and wrapping LV2 plugin UIs
+
+%CSIZE%
+28704
+
+%ISIZE%
+172315
+
+%MD5SUM%
+4914da9315201489126c2b30cc75bf62
+
+%SHA256SUM%
+194490003932840355ad6c4db0e7d4011b055f53fa0a417ca89d409ad523d29e
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXcnDSAAKCRByWHNLQcMVSe0SAP98tqW+8/WolY7AI2ZsZPN0U2ycfaawmnONRiU0KtiZKAD+MGIi/yBt2Uy1rmXMQFRDxJKwKxU4pYfY5XOmmT+xDAU=
+
+%URL%
+https://drobilla.net/software/suil/
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1573503722
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libsuil-0.so=0-64
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+atk: support for wrapping X11 and Qt5 in GTK2/3 and GTK2 in Qt5
+cairo: support for wrapping X11 and Qt5 in GTK2/3
+fontconfig: support for wrapping X11 and Qt5 in GTK2 and GTK2 in Qt5
+gcc-libs: support for wrapping GTK2 and X11 in Qt5 and Qt5 in GTK2/3
+gdk-pixbuf2: support for wrapping X11 and Qt5 in GTK2/3 and GTK2 in Qt5
+glib2: support for wrapping X11 and Qt5 in GTK2/3 and GTK2 in Qt5
+gtk2: support for wrapping X11 and Qt5 in GTK2 and GTK2 in Qt5
+gtk3: support for wrapping X11 and Qt5 in GTK3
+libfreetype.so: support for wrapping X11 and Qt5 in GTK2 and GTK2 in Qt5
+libx11: support for wrapping X11 directly and in GTK2/3
+qt5-base: support for wrapping X11 in Qt5, Qt5 in GTK2/3 and GTK2 in Qt5
+pango: support for wrapping X11 in GTK2/3, Qt5 in GTK2/3 and GTK2 in Qt5
+zlib: support for wrapping X11 in GTK3 and Qt5 in GTK3
+
+%MAKEDEPENDS%
+gtk2
+gtk3
+lv2
+python
+qt5-base
+waf
+

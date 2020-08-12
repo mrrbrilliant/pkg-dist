@@ -1,0 +1,68 @@
+%FILENAME%
+synthv1-0.9.16-1-x86_64.pkg.tar.zst
+
+%NAME%
+synthv1
+
+%BASE%
+synthv1
+
+%VERSION%
+0.9.16-1
+
+%DESC%
+Old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+419778
+
+%ISIZE%
+2210071
+
+%MD5SUM%
+5832098ece4751b0b2b3ca95050eaf09
+
+%SHA256SUM%
+7aacc3794cdfd7b0a92a97ae7ca87d952ca7d23875aad9bd7421a0c62f1e09ff
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCXywdVwAKCRByWHNLQcMVSfyhAP9vQEWeX3B/0bMtURmmHnI6Jg8VwJ2CsOuZirmvryE2fAD+PhTJqZR2KzGo+qGYd8X/xCHcwV3pmr+nRxKaSeiZoQU=
+
+%URL%
+https://synthv1.sourceforge.io/synthv1-index.html
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596726556
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+qt5-base
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+non-session-manager: for session management using the standalone application
+
+%MAKEDEPENDS%
+alsa-lib
+jack
+liblo
+lv2
+qt5-tools
+

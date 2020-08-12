@@ -1,0 +1,70 @@
+%FILENAME%
+weechat-2.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+weechat
+
+%BASE%
+weechat
+
+%VERSION%
+2.9-1
+
+%DESC%
+Fast, light and extensible IRC client (curses UI)
+
+%CSIZE%
+2477269
+
+%ISIZE%
+22079786
+
+%MD5SUM%
+ef7094eda9d8e4c18e8913bf393e2cc1
+
+%SHA256SUM%
+5ef3f4a4fc8b6d7d84be5ad0f26abd6e22cc21e0df31f63a9dfad27cdb4b3c42
+
+%PGPSIG%
+iQJMBAABCgA2FiEEYEETBMCdNmKDQO7/zrFn77VyK9YFAl8T6GMYHGVzY2h3YXJ0ekBhcmNobGludXgub3JnAAoJEM6xZ++1civW7FcQAKKlUsfdYDSPd7ZywKvGbXP8AgsqhSeAXZRslYI4rC8sJ93gH7AECmFN1Rtgy/zwN23XFZCRskaHRbwunv7850TAkING6eQqkw2vRobyjCwpYr6B8S7o7VL8+ebPTrQPsOxoMby8dB75bal0gUfZr24hteF5rmsfpDZypg3UelyGuoYtK+CATVF/5O0atznEI99fH4zY83BYTEftwnxXDdeQZI/dP506Th/19J7I/KVLmwjRGztn//MAz5LINwDSLuW9XpOW9CDK1maATLiH4SaIMn2C/So2tcIFf6Ef8iK/axjo2xT8TwRw0Acl6tyFwEZh0WrL3uvo8hgUtvVdgkgSFJ67qh1nKpLKw70DY/7MBQsGVlejYt+R/xhi52VeDRLTwgRJR4CpbiZrVxc0kLFA4j2ZYOWjPn1KxPYCBInXVErmNpTcY+d4wgYg4yLvvtR39+4GmIf7hIqfVwEzLKy9CyXwZ844DXB6wK0XqtEdwHb8DxzJ9Ayj1ekb2uVGUkLRbWXC2USLq3LnXQKwyMTzaSWrbfSG9oBE2BPlxjttC/7jUB4+K04ZMrjPpWLgQ2IXnZmhdxpdVHsO17FVRxkcT1lNYXUx7IRfFeWXVu62xkYVAnDX7l0vdtACRLJvRuBSk+A5qBELvRJgWgGNI6deH5ki3Xs0b6XoDoIN0FuD
+
+%URL%
+https://www.weechat.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595137408
+
+%PACKAGER%
+Eli Schwartz <eschwartz@archlinux.org>
+
+%DEPENDS%
+gnutls
+curl
+libgcrypt
+
+%OPTDEPENDS%
+aspell: spellchecker support
+guile: support for guile scripts
+lua: support for lua scripts
+perl: support for perl scripts
+python: support for python scripts
+ruby: support for ruby scripts
+tcl: support for tcl scripts
+
+%MAKEDEPENDS%
+asciidoctor
+cmake
+aspell
+guile
+lua
+perl
+python
+ruby
+tcl
+

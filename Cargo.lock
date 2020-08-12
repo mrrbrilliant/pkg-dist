@@ -244,26 +244,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "deriver-discover"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_derive",
- "serde_json",
- "shared-library",
- "strum",
- "strum_macros",
- "treexml",
-]
-
-[[package]]
-name = "deriver-pacman"
-version = "0.1.0"
-dependencies = [
- "shared-library",
-]
-
-[[package]]
 name = "dtoa"
 version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -822,33 +802,79 @@ dependencies = [
 ]
 
 [[package]]
-name = "package-builder"
-version = "0.1.0"
-dependencies = [
- "rayon",
- "serde",
- "serde_derive",
- "serde_json",
- "shared-library",
-]
-
-[[package]]
-name = "package-manager"
-version = "0.1.0"
-dependencies = [
- "clap",
- "colored",
- "serde",
- "serde_derive",
- "serde_json",
- "shared-library",
-]
-
-[[package]]
 name = "percent-encoding"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
+
+[[package]]
+name = "pi-discover-deriver"
+version = "0.1.0"
+dependencies = [
+ "pi-library",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "strum",
+ "strum_macros",
+ "treexml",
+]
+
+[[package]]
+name = "pi-library"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "colored",
+ "curl",
+ "flate2",
+ "indicatif",
+ "itertools",
+ "reqwest",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "structopt",
+ "strum",
+ "strum_macros",
+ "tar",
+ "tokio",
+ "treexml",
+]
+
+[[package]]
+name = "pi-package-builder"
+version = "0.1.0"
+dependencies = [
+ "pi-library",
+ "rayon",
+ "serde",
+ "serde_derive",
+ "serde_json",
+]
+
+[[package]]
+name = "pi-package-manager"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "colored",
+ "pi-library",
+ "serde",
+ "serde_derive",
+ "serde_json",
+]
+
+[[package]]
+name = "pi-pacman-deriver"
+version = "0.1.0"
+dependencies = [
+ "pi-library",
+ "rayon",
+ "serde",
+ "serde_derive",
+ "serde_json",
+]
 
 [[package]]
 name = "pin-project"
@@ -1156,28 +1182,6 @@ dependencies = [
  "itoa",
  "serde",
  "url",
-]
-
-[[package]]
-name = "shared-library"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "colored",
- "curl",
- "flate2",
- "indicatif",
- "itertools",
- "reqwest",
- "serde",
- "serde_derive",
- "serde_json",
- "structopt",
- "strum",
- "strum_macros",
- "tar",
- "tokio",
- "treexml",
 ]
 
 [[package]]

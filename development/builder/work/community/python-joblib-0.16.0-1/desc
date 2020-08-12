@@ -1,0 +1,55 @@
+%FILENAME%
+python-joblib-0.16.0-1-any.pkg.tar.zst
+
+%NAME%
+python-joblib
+
+%BASE%
+python-joblib
+
+%VERSION%
+0.16.0-1
+
+%DESC%
+Set of tools to provide lightweight pipelining in Python
+
+%CSIZE%
+513874
+
+%ISIZE%
+2158212
+
+%MD5SUM%
+e016e73ce3a05bc35fc73af15efb6192
+
+%SHA256SUM%
+ae63a97ffd539e1da4756485e5bb473fb30cd6c861706234b9b9051a4acd1875
+
+%PGPSIG%
+iQEzBAABCAAdFiEEcXAmqdR3n8U5QHJmQPVXtzFJYQYFAl8QjoUACgkQQPVXtzFJYQZ9WAgAnqyIWcQNjNlRk5S4bikkxc/N56Au+Dpoiwtp5W+oDka6a+FpmS6xWao3n1Y5cTxJkOPtml2UKFtLsuDoTh2gWbt3g+tzQupm0EevpMSQDNMLbXB640XkcMowQvE7TwjLtifzIAACuMUhjj7d5gadckQWumkD7y2AyKiKWmWsLevOVXPmHqf9Mb50NINSC48aEgO+5EcMdCsfQDEKRY9LGDz3967XqRoHHaEv2CwLgHIThp64wBJ4KPIeFlUad/p16HAzjH+M/AwrsFxxYj0Gmvp87xutUwiGpvJrXKNI05G+Vc4Evatx4kg5fBDeT1IrTGsfZ9IQa71i6DihwYMELA==
+
+%URL%
+https://joblib.readthedocs.io/
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1594920551
+
+%PACKAGER%
+Andrzej Giniewicz <gginiu@gmail.com>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-numpy: for array manipulation
+python-lz4: for compressed serialization
+
+%MAKEDEPENDS%
+python-setuptools
+

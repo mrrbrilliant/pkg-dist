@@ -1,0 +1,62 @@
+%FILENAME%
+kdeplasma-addons-5.19.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+kdeplasma-addons
+
+%BASE%
+kdeplasma-addons
+
+%VERSION%
+5.19.4-1
+
+%DESC%
+All kind of addons to improve your Plasma experience
+
+%GROUPS%
+plasma
+
+%CSIZE%
+955213
+
+%ISIZE%
+5389047
+
+%MD5SUM%
+d7dd93ae7e81bc01d84836b62455f562
+
+%SHA256SUM%
+06b2cf65c83009965b77d4c8df6baa4b3a026b82b6d8e6fb0ed9747a78e4b673
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8gRwoACgkQek52CV2KUuR8twf/VFySVITGma0o5rtZZ/nF/uUXYgBT9jsuHNZDYOjgaG+/YdLqF7Xx1ozpKPpSCH/mGViZJCbMls7gTzL/Am+s5aLeTSipErhtlS/jtHtjXhkzKuhtuhangFFbci+tG7ecgtc7LvtOvqxwwFwnyXa/pxbiguTzzq2YXI9nVw5uVrp6NtDoUTLwuxjciTxvXqsTW9JGhQL21aKXHAtnSSVOkqX9MCLawhFtuSruwjpax4gxiFABnzymhpvSVf1F6zhzCotznJmraSdFFEksEAha6p0mLaRhV2pr4VZ0LJ94P705lLqDahnqPuVYkxjE3b+VTkv7WX6oBYeChQzeW+IkVw==
+
+%URL%
+https://www.kde.org/workspaces/plasmadesktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1595947238
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+plasma-workspace
+
+%OPTDEPENDS%
+kross: comic applet
+purpose: Quickshare applet
+quota-tools: disk quota applet
+qt5-webengine: dictionary and webbrowser applets
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kross
+qt5-webengine
+

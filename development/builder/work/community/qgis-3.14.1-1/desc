@@ -1,0 +1,82 @@
+%FILENAME%
+qgis-3.14.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+qgis
+
+%BASE%
+qgis
+
+%VERSION%
+3.14.1-1
+
+%DESC%
+Geographic Information System (GIS) that supports vector, raster & database formats
+
+%CSIZE%
+52940032
+
+%ISIZE%
+263977254
+
+%MD5SUM%
+a53c23c7311401b7fc73c1634220de84
+
+%SHA256SUM%
+72b8aefddc2c2840e2acc80e25397a3c8d8ed348c3a9fd4a4e533b56da1b9448
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAl8r3nwACgkQek52CV2KUuR97Af+Li/rUpnsX3yWl6Aixs9D7/cgwQ/bPsxrchu0/29ukR6MLw4y2lh7h1w0zOUE8T9T26s98uZBkOpX9yJhN1zN5HjdKzspAOWnt/Wg0zEYsZB2hR+Br4/6GSxvrQanhMkmpqwnWnJVLzUbq5s83WUs2TLd/oLK5VP9+lry+E2uTSspga0aJE3XR/twZt+UfeBxjIbFiwdYfQ3iw4r/wK6w5nYWjnNOLmIQLxj6R2i3sunnGNChEQxYG8CbiCq9c0nIQd9YWVC1GCKQfsL4F4n7kOJtK1Ca/Sz80+usVIxMAOHQu/jmKAbG61EGlcsWHEN4kdTzGZuPI9Oga41ao7WQzw==
+
+%URL%
+https://qgis.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1596708489
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+exiv2
+gdal
+gsl
+hicolor-icon-theme
+libzip
+protobuf
+python-qscintilla-qt5
+python-sip
+qca
+qt5-3d
+qt5-serialport
+qt5-webkit
+qtkeychain
+qwtpolar
+spatialindex
+
+%OPTDEPENDS%
+fcgi: Map server
+gpsbabel: GPS Tools plugin
+python-gdal: DB Manager plugin; Processing plugin
+python-jinja: MetaSearch plugin
+python-owslib: MetaSearch plugin
+python-psycopg2: DB Manager plugin; Processing plugin
+python-pygments: MetaSearch plugin
+python-numpy: Processing plugin
+python-yaml: Processing plugin
+
+%MAKEDEPENDS%
+cmake
+fcgi
+python-setuptools
+python-six
+qt5-tools
+txt2tags
+sip
+

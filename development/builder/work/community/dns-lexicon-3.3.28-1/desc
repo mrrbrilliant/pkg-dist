@@ -1,0 +1,79 @@
+%FILENAME%
+dns-lexicon-3.3.28-1-any.pkg.tar.zst
+
+%NAME%
+dns-lexicon
+
+%BASE%
+dns-lexicon
+
+%VERSION%
+3.3.28-1
+
+%DESC%
+Manipulate DNS records on various DNS providers in a standardized/agnostic way
+
+%CSIZE%
+299189
+
+%ISIZE%
+1950640
+
+%MD5SUM%
+8bf37f300a8c3f3430fe0b12cefa1e5e
+
+%SHA256SUM%
+8476e2f9bc1b8782593bd097959cce34b6a42b675f7e1b36d7e39abfbf005894
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAl8en9wACgkQeGxj8zDXy5IYmg//RkRnozRn5UEwv93lrpHHNNQwSfgwDNUlDG6bdDKX9mJ5GKT6bgZdtX58lFDuDwE4qNUkxr6Rv77+cG83G1qf6xRZHvOIjj3oD7B52+j3zx3c2VFl2ezvm1zJkdLWmq8jQbZ51DnWiOvJlJx46mvrDFjHNHQKWGQGPiMa0IBtleIPFYEOrFj/P33e2o7gN2mmktr64zi7O3vgIhf+Q8UF/oNmdhsCoQa111YIZintIv7WkpOt4cN4UHFIHS+ABOCg+XApyfjJAqSwqpkxCSUMzfEL5XAU7FP+6IPXOXEgrGymT6TmWUGdj/LFduKGNElCoLoXW1D1WeKmOdkhqc4G68wpcsZfWDgkABKEXETCnigGABjY24tqOTJV0XVX3vhdl+uQ1phqvARXW2LZ9ukDa+JEeBNL8BB+LZXsESxki/kGVfgIuKS3gw1pSbvBwpSMvjZWMAlqbOHZzy/M8E6Tzr/Y9obxKg4y+wVhLeEMr/VkHjgNkTppvE3hKQeZKFb6p5CF2EfPJwbgBD6Y3wv5+oXrFjjfKv+Unx6NF8DUNt2eInMSjuLd/09Wg/VYGekJWb6cP6scCHSyEAbZv6pQemgRz7g30M6iTyJCUMfpe5/R7vpI9SBEi4RV1JfTygyoM+aAOacaViFWnWK19UdPVgMDkmz4i62wICYta/yaApk=
+
+%URL%
+https://github.com/AnalogJ/lexicon
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1595842350
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-future
+python-tldextract
+python-cryptography
+python-yaml
+python-setuptools
+python-requests
+python-pyopenssl
+python-idna
+
+%OPTDEPENDS%
+python-pynamecheap: for Namecheap support
+python-boto3: for Route53 support
+python-softlayer: for SoftLayer support
+python-zeep: for Subreg and Gransy support
+python-xmltodict: for Plesk support
+python-beautifulsoup4: for Henet, Easyname and GratisDNS support
+python-localzone: for localzone support
+
+%CHECKDEPENDS%
+python-pytest-runner
+python-vcrpy
+python-softlayer
+python-boto3
+python-mock
+python-pynamecheap
+python-zeep
+python-xmltodict
+python-beautifulsoup4
+python-localzone
+python-html5lib
+python-dnspython
+bind-tools
+
