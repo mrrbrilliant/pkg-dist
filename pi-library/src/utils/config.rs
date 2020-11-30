@@ -5,7 +5,7 @@ use std::{
 };
 
 pub fn get() -> Config {
-    let file = File::open("root/etc/pi-conf.json").unwrap();
+    let file = File::open("development/manager/root/etc/pi-conf.json").unwrap();
     let mut buf_reader = BufReader::new(file);
     let mut contents = String::new();
     buf_reader.read_to_string(&mut contents).unwrap();
