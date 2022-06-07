@@ -24,7 +24,7 @@ colored = "2.0.0"
 itertools = "0.9.0"
 # compression
 flate2 = "1.0.16"
-tar = "0.4.29"
+tar = "0.4.36"
 # rest
 curl = "0.4.31"
 # enum helper
